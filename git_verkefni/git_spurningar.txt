@@ -17,6 +17,12 @@
 	git status
 	git diff
 	git checkout
+	
+	git clone = býr til working copy af local repository
+	git log = sýnir þér au commits sem þú ert búinn að gera
+	git status = sýnir working tree status
+	git diff = sýnir þér muninn á eitthverju sem þú berð það saman með
+	git checkout = tékkar á því hvort það sem komin ný útgáfa af skránni
 
 3. Hver er munurinn á eftirfarandi git skipunum:
 	a) git diff 
