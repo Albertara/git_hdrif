@@ -61,3 +61,5 @@
 	Linus Torvald
 
 10.	Hvar er GIT helst notað?
+
+	í vinnslu á stórum verkefnum sem margir eru að vinna að
