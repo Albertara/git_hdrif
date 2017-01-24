@@ -4,6 +4,12 @@
 	ls
 	pwd
 	mkdir
+	
+	cd = change directory
+	cd ~ = fer heim
+	ls = sýnir öll files og dir á svæðinu sem þú ert á
+	pwd = print working directory
+	mkdir = býr til directory
 
 2. Hvað gera eftirfarandi git skipanir og hvers vegna eru þær gagnlegar?
 	git clone
