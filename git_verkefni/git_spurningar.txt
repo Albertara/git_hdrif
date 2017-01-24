@@ -53,6 +53,9 @@
 	
 8.	Hvenær er sniðugt að nota greinar (branches)? 
 
+	Til dæmis ef þú ert að fara að gera breytingu á skrá sem þú ert ekki viss um að þú viljir.
+	
+
 9.	Hver fann upp GIT?
 
 10.	Hvar er GIT helst notað?
