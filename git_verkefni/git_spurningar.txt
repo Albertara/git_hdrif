@@ -29,9 +29,12 @@
 	b) git diff --staged 
 	c) git diff commit1 commit2
 	
-	diff er almenna skipunin, git diff --staged sýnir staging area en ekki working, git diff commit1 commit2 ber saman 2 commit.
+	diff er almenna skipunin, git diff --staged sýnir staged area en ekki working, git diff commit1 commit2 ber saman 2 commit 
 
 4. 	Hvað er útgáfustýring (e.version control)? 
+
+	version control er kerfi sem skráir allar breytingar á skrá hjá þér svo þú getir farið til baka hvenær sem er.
+	
 
 5.	Hverjir eru helstu kostir við að nota GIT?
 
