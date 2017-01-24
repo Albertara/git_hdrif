@@ -57,5 +57,7 @@
 	
 
 9.	Hver fann upp GIT?
+	
+	Linus Torvald
 
 10.	Hvar er GIT helst notað?
