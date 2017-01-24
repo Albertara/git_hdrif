@@ -45,9 +45,12 @@
 	
 	mjög oft miðað við hversu mikið það er notað og talað um núna.
 	
-	
-7.	Hvað er "Working directory"?" "Staging area"?" og "Repository" í GIT?
 
+7.	Hvað er "Working directory"?" "Staging area"?" og "Repository" í GIT?
+	
+	working directory er directory sem er með grunn skránna inní git rótinni. Staging area er það sem þú geymir skrárnar þínar áður en þú notar þær. Repository er data strúktúr sem geymir allt data sem þú ert með.
+
+	
 8.	Hvenær er sniðugt að nota greinar (branches)? 
 
 9.	Hver fann upp GIT?
