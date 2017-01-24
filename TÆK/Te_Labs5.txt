@@ -1,0 +1,1902 @@
+Script started on Fri 30 Sep 2016 01:46:00 PM GMT
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ date
+Fri Sep 30 13:46:54 GMT 2016
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ man date
+[?1049h[?1h=DATE(1)                                            User Commands                                           DATE(1)[m
+[m
+[1mNAME[0m[m
+       date - print or set the system date and time[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mdate[0m [[4mOPTION[24m]... [[4m+FORMAT[24m][m
+       [1mdate[0m [[4m-u|--utc|--universal[24m] [[4mMMDDhhmm[24m[[[4mCC[24m][4mYY[24m][[4m.ss[24m]][m
+[m
+[1mDESCRIPTION[0m[m
+       Display the current time in the given FORMAT, or set the system date.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-d[0m, [1m--date[0m=[4mSTRING[24m[m
+              display time described by STRING, not 'now'[m
+[m
+       [1m-f[0m, [1m--file[0m=[4mDATEFILE[24m[m
+              like [1m--date[0m; once for each line of DATEFILE[m
+[m
+       [1m-I[FMT][0m, [1m--iso-8601[0m[=[4mFMT[24m][m
+              output  date/time  in  ISO 8601 format.  FMT='date' for date only (the default), 'hours', 'minutes',[m
+              'seconds', or 'ns' for date and time to the indicated precision.  Example: 2006-08-14T02:34:56-0600[m
+[m
+       [1m-R[0m, [1m--rfc-2822[0m[m
+              output date and time in RFC 2822 format.  Example: Mon, 14 Aug 2006 02:34:56 [1m-0600[0m[m
+[m
+       [1m--rfc-3339[0m=[4mFMT[24m[m
+              output date/time in RFC 3339 format.  FMT='date', 'seconds', or 'ns' for date and time to the  indi‐[m
+              cated precision.  Example: 2006-08-14 02:34:56-06:00[m
+[m
+       [1m-r[0m, [1m--reference[0m=[4mFILE[24m[m
+              display the last modification time of FILE[m
+[m
+       [1m-s[0m, [1m--set[0m=[4mSTRING[24m[m
+              set time described by STRING[m
+[m
+       [1m-u[0m, [1m--utc[0m, [1m--universal[0m[m
+              print or set Coordinated Universal Time (UTC)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       FORMAT controls the output.  Interpreted sequences are:[m
+[m
+       %%     a literal %[m
+[m
+       %a     locale's abbreviated weekday name (e.g., Sun)[m
+[m
+       %A     locale's full weekday name (e.g., Sunday)[m
+[m
+       %b     locale's abbreviated month name (e.g., Jan)[m
+[m
+       %B     locale's full month name (e.g., January)[m
+[m
+       %c     locale's date and time (e.g., Thu Mar  3 23:05:25 2005)[m
+[m
+       %C     century; like %Y, except omit last two digits (e.g., 20)[m
+[m
+[7m Manual page date(1) line 1 (press h for help or q to quit)[27m[K[K...skipping...
+[m
+                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[m
+      Commands marked with * may be preceded by a number, [4mN[24m.[m
+      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[m
+  h  H                 Display this help.[m
+  q  :q  Q  :Q  ZZ     Exit.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mMOVING[0m[m
+[m
+  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+  z                 *  Forward  one window (and set window to [4mN[24m).[m
+  w                 *  Backward one window (and set window to [4mN[24m).[m
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+  ESC-)  RightArrow *  Left  one half screen width (or [4mN[24m positions).[m
+  ESC-(  LeftArrow  *  Right one half screen width (or [4mN[24m positions).[m
+  F                    Forward forever; like "tail -f".[m
+  ESC-F                Like F but stop when search pattern is found.[m
+  r  ^R  ^L            Repaint screen.[m
+  R                    Repaint screen, discarding buffered input.[m
+        ---------------------------------------------------[m
+        Default "window" is the screen height.[m
+        Default "half-window" is half of the screen height.[m
+ ---------------------------------------------------------------------------[m
+[m
+                          [1mSEARCHING[0m[m
+[m
+  /[4mpattern[24m          *  Search forward for ([4mN[24m-th) matching line.[m
+  ?[4mpattern[24m          *  Search backward for ([4mN[24m-th) matching line.[m
+  n                 *  Repeat previous search (for [4mN[24m-th occurrence).[m
+  N                 *  Repeat previous search in reverse direction.[m
+  ESC-n             *  Repeat previous search, spanning files.[m
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.[m
+  ESC-u                Undo (toggle) search highlighting.[m
+  &[4mpattern[24m          *  Display only matching lines[m
+        ---------------------------------------------------[m
+        A search pattern may be preceded by one or more of:[m
+        ^N or !  Search for NON-matching lines.[m
+        ^E or *  Search multiple files (pass thru END OF FILE).[m
+        ^F or @  Start search at FIRST file (for /) or last file (for ?).[m
+        ^K       Highlight matches, but don't move (KEEP position).[m
+        ^R       Don't use REGULAR EXPRESSIONS.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mJUMPING[0m[m
+[m
+  g  <  ESC-<       *  Go to first line in file (or line [4mN[24m).[m
+  G  >  ESC->       *  Go to last line in file (or line [4mN[24m).[m
+  p  %              *  Go to beginning of file (or [4mN[24m percent into file).[m
+  t                 *  Go to the ([4mN[24m-th) next tag.[m
+  T                 *  Go to the ([4mN[24m-th) previous tag.[m
+  {  (  [           *  Find close bracket } ) ].[m
+  }  )  ]           *  Find open bracket { ( [.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K...skipping...
+DATE(1)                                            User Commands                                           DATE(1)[m
+[m
+[1mNAME[0m[m
+       date - print or set the system date and time[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mdate[0m [[4mOPTION[24m]... [[4m+FORMAT[24m][m
+       [1mdate[0m [[4m-u|--utc|--universal[24m] [[4mMMDDhhmm[24m[[[4mCC[24m][4mYY[24m][[4m.ss[24m]][m
+[m
+[1mDESCRIPTION[0m[m
+       Display the current time in the given FORMAT, or set the system date.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-d[0m, [1m--date[0m=[4mSTRING[24m[m
+              display time described by STRING, not 'now'[m
+[m
+       [1m-f[0m, [1m--file[0m=[4mDATEFILE[24m[m
+              like [1m--date[0m; once for each line of DATEFILE[m
+[m
+       [1m-I[FMT][0m, [1m--iso-8601[0m[=[4mFMT[24m][m
+              output  date/time  in  ISO 8601 format.  FMT='date' for date only (the default), 'hours', 'minutes',[m
+              'seconds', or 'ns' for date and time to the indicated precision.  Example: 2006-08-14T02:34:56-0600[m
+[m
+       [1m-R[0m, [1m--rfc-2822[0m[m
+              output date and time in RFC 2822 format.  Example: Mon, 14 Aug 2006 02:34:56 [1m-0600[0m[m
+[m
+       [1m--rfc-3339[0m=[4mFMT[24m[m
+              output date/time in RFC 3339 format.  FMT='date', 'seconds', or 'ns' for date and time to the  indi‐[m
+              cated precision.  Example: 2006-08-14 02:34:56-06:00[m
+[m
+       [1m-r[0m, [1m--reference[0m=[4mFILE[24m[m
+              display the last modification time of FILE[m
+[m
+       [1m-s[0m, [1m--set[0m=[4mSTRING[24m[m
+              set time described by STRING[m
+[m
+       [1m-u[0m, [1m--utc[0m, [1m--universal[0m[m
+              print or set Coordinated Universal Time (UTC)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       FORMAT controls the output.  Interpreted sequences are:[m
+[m
+       %%     a literal %[m
+[m
+       %a     locale's abbreviated weekday name (e.g., Sun)[m
+[m
+       %A     locale's full weekday name (e.g., Sunday)[m
+[m
+       %b     locale's abbreviated month name (e.g., Jan)[m
+[m
+       %B     locale's full month name (e.g., January)[m
+[m
+       %c     locale's date and time (e.g., Thu Mar  3 23:05:25 2005)[m
+[m
+       %C     century; like %Y, except omit last two digits (e.g., 20)[m
+[m
+[7m Manual page date(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ man date
+[?1049h[?1h=DATE(1)                                            User Commands                                           DATE(1)[m
+[m
+[1mNAME[0m[m
+       date - print or set the system date and time[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mdate[0m [[4mOPTION[24m]... [[4m+FORMAT[24m][m
+       [1mdate[0m [[4m-u|--utc|--universal[24m] [[4mMMDDhhmm[24m[[[4mCC[24m][4mYY[24m][[4m.ss[24m]][m
+[m
+[1mDESCRIPTION[0m[m
+       Display the current time in the given FORMAT, or set the system date.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-d[0m, [1m--date[0m=[4mSTRING[24m[m
+              display time described by STRING, not 'now'[m
+[m
+       [1m-f[0m, [1m--file[0m=[4mDATEFILE[24m[m
+              like [1m--date[0m; once for each line of DATEFILE[m
+[m
+       [1m-I[FMT][0m, [1m--iso-8601[0m[=[4mFMT[24m][m
+              output  date/time  in  ISO 8601 format.  FMT='date' for date only (the default), 'hours', 'minutes',[m
+              'seconds', or 'ns' for date and time to the indicated precision.  Example: 2006-08-14T02:34:56-0600[m
+[m
+       [1m-R[0m, [1m--rfc-2822[0m[m
+              output date and time in RFC 2822 format.  Example: Mon, 14 Aug 2006 02:34:56 [1m-0600[0m[m
+[m
+       [1m--rfc-3339[0m=[4mFMT[24m[m
+              output date/time in RFC 3339 format.  FMT='date', 'seconds', or 'ns' for date and time to the  indi‐[m
+              cated precision.  Example: 2006-08-14 02:34:56-06:00[m
+[m
+       [1m-r[0m, [1m--reference[0m=[4mFILE[24m[m
+              display the last modification time of FILE[m
+[m
+       [1m-s[0m, [1m--set[0m=[4mSTRING[24m[m
+              set time described by STRING[m
+[m
+       [1m-u[0m, [1m--utc[0m, [1m--universal[0m[m
+              print or set Coordinated Universal Time (UTC)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       FORMAT controls the output.  Interpreted sequences are:[m
+[m
+       %%     a literal %[m
+[m
+       %a     locale's abbreviated weekday name (e.g., Sun)[m
+[m
+       %A     locale's full weekday name (e.g., Sunday)[m
+[m
+       %b     locale's abbreviated month name (e.g., Jan)[m
+[m
+       %B     locale's full month name (e.g., January)[m
+[m
+       %c     locale's date and time (e.g., Thu Mar  3 23:05:25 2005)[m
+[m
+       %C     century; like %Y, except omit last two digits (e.g., 20)[m
+[m
+[7m Manual page date(1) line 1 (press h for help or q to quit)[27m[K[K...skipping...
+[m
+                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[m
+      Commands marked with * may be preceded by a number, [4mN[24m.[m
+      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[m
+  h  H                 Display this help.[m
+  q  :q  Q  :Q  ZZ     Exit.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mMOVING[0m[m
+[m
+  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+  z                 *  Forward  one window (and set window to [4mN[24m).[m
+  w                 *  Backward one window (and set window to [4mN[24m).[m
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+  ESC-)  RightArrow *  Left  one half screen width (or [4mN[24m positions).[m
+  ESC-(  LeftArrow  *  Right one half screen width (or [4mN[24m positions).[m
+  F                    Forward forever; like "tail -f".[m
+  ESC-F                Like F but stop when search pattern is found.[m
+  r  ^R  ^L            Repaint screen.[m
+  R                    Repaint screen, discarding buffered input.[m
+        ---------------------------------------------------[m
+        Default "window" is the screen height.[m
+        Default "half-window" is half of the screen height.[m
+ ---------------------------------------------------------------------------[m
+[m
+                          [1mSEARCHING[0m[m
+[m
+  /[4mpattern[24m          *  Search forward for ([4mN[24m-th) matching line.[m
+  ?[4mpattern[24m          *  Search backward for ([4mN[24m-th) matching line.[m
+  n                 *  Repeat previous search (for [4mN[24m-th occurrence).[m
+  N                 *  Repeat previous search in reverse direction.[m
+  ESC-n             *  Repeat previous search, spanning files.[m
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.[m
+  ESC-u                Undo (toggle) search highlighting.[m
+  &[4mpattern[24m          *  Display only matching lines[m
+        ---------------------------------------------------[m
+        A search pattern may be preceded by one or more of:[m
+        ^N or !  Search for NON-matching lines.[m
+        ^E or *  Search multiple files (pass thru END OF FILE).[m
+        ^F or @  Start search at FIRST file (for /) or last file (for ?).[m
+        ^K       Highlight matches, but don't move (KEEP position).[m
+        ^R       Don't use REGULAR EXPRESSIONS.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mJUMPING[0m[m
+[m
+  g  <  ESC-<       *  Go to first line in file (or line [4mN[24m).[m
+  G  >  ESC->       *  Go to last line in file (or line [4mN[24m).[m
+  p  %              *  Go to beginning of file (or [4mN[24m percent into file).[m
+  t                 *  Go to the ([4mN[24m-th) next tag.[m
+  T                 *  Go to the ([4mN[24m-th) previous tag.[m
+  {  (  [           *  Find close bracket } ) ].[m
+  }  )  ]           *  Find open bracket { ( [.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[Kff[Kii[Kll[Kee[K[1;1H[m
+[2;1H                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[3;1H[m
+[4;1H      Commands marked with * may be preceded by a number, [4mN[24m.[m
+[5;1H      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+[6;1H      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[7;1H[m
+[8;1H  h  H                 Display this help.[m
+[9;1H  q  :q  Q  :Q  ZZ     Exit.[m
+[10;1H ---------------------------------------------------------------------------[m
+[11;1H[m
+[12;1H                           [1mMOVING[0m[m
+[13;1H[m
+[14;1H  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+[15;1H  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+[16;1H  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+[17;1H  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+[18;1H  z                 *  Forward  one window (and set window to [4mN[24m).[m
+[19;1H  w                 *  Backward one window (and set window to [4mN[24m).[m
+[20;1H  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+[21;1H  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+[22;1H  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+[23;1H  ESC-)  RightArrow *  Left  one half screen width (or [4mN[24m positions).[m
+[24;1H  ESC-(  LeftArrow  *  Right one half screen width (or [4mN[24m positions).[m
+[25;1H  F                    Forward forever; like "tail -f".[m
+[26;1H  ESC-F                Like F but stop when search pattern is found.[m
+[27;1H  r  ^R  ^L            Repaint screen.[m
+[28;1H  R                    Repaint screen, discarding buffered input.[m
+[29;1H        ---------------------------------------------------[m
+[30;1H        Default "window" is the screen height.[m
+[31;1H        Default "half-window" is half of the screen height.[m
+[32;1H ---------------------------------------------------------------------------[m
+[33;1H[m
+[34;1H                          [1mSEARCHING[0m[m
+[35;1H[m
+[36;1H  /[4mpattern[24m          *  Search forward for ([4mN[24m-th) matching line.[m
+[37;1H  ?[4mpattern[24m          *  Search backward for ([4mN[24m-th) matching line.[m
+[38;1H  n                 *  Repeat previous search (for [4mN[24m-th occurrence).[m
+[39;1H  N                 *  Repeat previous search in reverse direction.[m
+[40;1H  ESC-n             *  Repeat previous search, spanning files.[m
+[41;1H  ESC-N             *  Repeat previous search, reverse dir. & spanning files.[m
+[42;1H  ESC-u                Undo (toggle) search highlighting.[m
+[43;1H  &[4mpattern[24m          *  Display only matching lines[m
+[44;1H        ---------------------------------------------------[m
+[45;1H        A search pattern may be preceded by one or more of:[m
+[46;1H        ^N or !  Search for NON-matching lines.[m
+[47;1H        ^E or *  Search multiple files (pass thru END OF FILE).[m
+[48;1H        ^F or @  Start search at FIRST file (for /) or last file (for ?).[m
+[49;1H        ^K       Highlight matches, but don't move (KEEP position).[m
+[50;1H        ^R       Don't use REGULAR EXPRESSIONS.[m
+[51;1H ---------------------------------------------------------------------------[m
+[52;1H[m
+[53;1H                           [1mJUMPING[0m[m
+[54;1H[m
+[55;1H  g  <  ESC-<       *  Go to first line in file (or line [4mN[24m).[m
+[56;1H  G  >  ESC->       *  Go to last line in file (or line [4mN[24m).[m
+[57;1H  p  %              *  Go to beginning of file (or [4mN[24m percent into file).[m
+[58;1H  t                 *  Go to the ([4mN[24m-th) next tag.[m
+[59;1H  T                 *  Go to the ([4mN[24m-th) previous tag.[m
+[60;1H  {  (  [           *  Find close bracket } ) ].[m
+[61;1H  }  )  ]           *  Find open bracket { ( [.[m
+[62;1H[1;1H[m
+[2;1H                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[3;1H[m
+[4;1H      Commands marked with * may be preceded by a number, [4mN[24m.[m
+[5;1H      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+[6;1H      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[7;1H[m
+[8;1H  h  H                 Display this help.[m
+[9;1H  q  :q  Q  :Q  ZZ     Exit.[m
+[10;1H ---------------------------------------------------------------------------[m
+[11;1H[m
+[12;1H                           [1mMOVING[0m[m
+[13;1H[m
+[14;1H  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+[15;1H  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+[16;1H  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+[17;1H  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+[18;1H  z                 *  Forward  one window (and set window to [4mN[24m).[m
+[19;1H  w                 *  Backward one window (and set window to [4mN[24m).[m
+[20;1H  ESC-SPACE         *  Forward  one window, but don't stop at end-of-[7mfile[27m.[m
+[21;1H  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+[22;1H  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+[23;1H  ESC-)  RightArrow *  Left  one half screen width (or [4mN[24m positions).[m
+[24;1H  ESC-(  LeftArrow  *  Right one half screen width (or [4mN[24m positions).[m
+[25;1H  F                    Forward forever; like "tail -f".[m
+[26;1H  ESC-F                Like F but stop when search pattern is found.[m
+[27;1H  r  ^R  ^L            Repaint screen.[m
+[28;1H  R                    Repaint screen, discarding buffered input.[m
+[29;1H        ---------------------------------------------------[m
+[30;1H        Default "window" is the screen height.[m
+[31;1H        Default "half-window" is half of the screen height.[m
+[32;1H ---------------------------------------------------------------------------[m
+[33;1H[m
+[34;1H                          [1mSEARCHING[0m[m
+[35;1H[m
+[36;1H  /[4mpattern[24m          *  Search forward for ([4mN[24m-th) matching line.[m
+[37;1H  ?[4mpattern[24m          *  Search backward for ([4mN[24m-th) matching line.[m
+[38;1H  n                 *  Repeat previous search (for [4mN[24m-th occurrence).[m
+[39;1H  N                 *  Repeat previous search in reverse direction.[m
+[40;1H  ESC-n             *  Repeat previous search, spanning [7mfile[27ms.[m
+[41;1H  ESC-N             *  Repeat previous search, reverse dir. & spanning [7mfile[27ms.[m
+[42;1H  ESC-u                Undo (toggle) search highlighting.[m
+[43;1H  &[4mpattern[24m          *  Display only matching lines[m
+[44;1H        ---------------------------------------------------[m
+[45;1H        A search pattern may be preceded by one or more of:[m
+[46;1H        ^N or !  Search for NON-matching lines.[m
+[47;1H        ^E or *  Search multiple [7mfile[27ms (pass thru END OF [7mFILE[27m).[m
+[48;1H        ^F or @  Start search at FIRST [7mfile[27m (for /) or last [7mfile[27m (for ?).[m
+[49;1H        ^K       Highlight matches, but don't move (KEEP position).[m
+[50;1H        ^R       Don't use REGULAR EXPRESSIONS.[m
+[51;1H ---------------------------------------------------------------------------[m
+[52;1H[m
+[53;1H                           [1mJUMPING[0m[m
+[54;1H[m
+[55;1H  g  <  ESC-<       *  Go to first line in [7mfile[27m (or line [4mN[24m).[m
+[56;1H  G  >  ESC->       *  Go to last line in [7mfile[27m (or line [4mN[24m).[m
+[57;1H  p  %              *  Go to beginning of [7mfile[27m (or [4mN[24m percent into [7mfile[27m).[m
+[58;1H  t                 *  Go to the ([4mN[24m-th) next tag.[m
+[59;1H  T                 *  Go to the ([4mN[24m-th) previous tag.[m
+[60;1H  {  (  [           *  Find close bracket } ) ].[m
+[61;1H  }  )  ]           *  Find open bracket { ( [.[m
+[62;1H  ESC-^F [4m<c1>[24m [4m<c2>[24m  *  Find close bracket [4m<c2>[24m.[m
+  ESC-^B [4m<c1>[24m [4m<c2>[24m  *  Find open bracket [4m<c1>[24m [m
+        ---------------------------------------------------[m
+        Each "find close bracket" command goes forward to the close bracket [m
+          matching the ([4mN[24m-th) open bracket in the top line.[m
+        Each "find open bracket" command goes backward to the open bracket [m
+          matching the ([4mN[24m-th) close bracket in the bottom line.[m
+[m
+  m[4m<letter>[24m            Mark the current position with <letter>.[m
+  '[4m<letter>[24m            Go to a previously marked position.[m
+  ''                   Go to the previous position.[m
+  ^X^X                 Same as '.[m
+        ---------------------------------------------------[m
+        A mark is any upper-case or lower-case letter.[m
+        Certain marks are predefined:[m
+             ^  means  beginning of the [7mfile[27m[m
+             $  means  end of the [7mfile[27m[m
+ ---------------------------------------------------------------------------[m
+[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K...skipping...
+DATE(1)                                            User Commands                                           DATE(1)[m
+[m
+[1mNAME[0m[m
+       date - print or set the system date and time[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mdate[0m [[4mOPTION[24m]... [[4m+FORMAT[24m][m
+       [1mdate[0m [[4m-u|--utc|--universal[24m] [[4mMMDDhhmm[24m[[[4mCC[24m][4mYY[24m][[4m.ss[24m]][m
+[m
+[1mDESCRIPTION[0m[m
+       Display the current time in the given FORMAT, or set the system date.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-d[0m, [1m--date[0m=[4mSTRING[24m[m
+              display time described by STRING, not 'now'[m
+[m
+       [1m-f[0m, [1m--[0m[1m[7mfile[27m[0m=[4mDATE[24m[4m[7mFILE[27m[24m[m
+              like [1m--date[0m; once for each line of DATE[7mFILE[27m[m
+[m
+       [1m-I[FMT][0m, [1m--iso-8601[0m[=[4mFMT[24m][m
+              output  date/time  in  ISO 8601 format.  FMT='date' for date only (the default), 'hours', 'minutes',[m
+              'seconds', or 'ns' for date and time to the indicated precision.  Example: 2006-08-14T02:34:56-0600[m
+[m
+       [1m-R[0m, [1m--rfc-2822[0m[m
+              output date and time in RFC 2822 format.  Example: Mon, 14 Aug 2006 02:34:56 [1m-0600[0m[m
+[m
+       [1m--rfc-3339[0m=[4mFMT[24m[m
+              output date/time in RFC 3339 format.  FMT='date', 'seconds', or 'ns' for date and time to the  indi‐[m
+              cated precision.  Example: 2006-08-14 02:34:56-06:00[m
+[m
+       [1m-r[0m, [1m--reference[0m=[4m[7mFILE[27m[24m[m
+              display the last modification time of [7mFILE[27m[m
+[m
+       [1m-s[0m, [1m--set[0m=[4mSTRING[24m[m
+              set time described by STRING[m
+[m
+       [1m-u[0m, [1m--utc[0m, [1m--universal[0m[m
+              print or set Coordinated Universal Time (UTC)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       FORMAT controls the output.  Interpreted sequences are:[m
+[m
+       %%     a literal %[m
+[m
+       %a     locale's abbreviated weekday name (e.g., Sun)[m
+[m
+       %A     locale's full weekday name (e.g., Sunday)[m
+[m
+       %b     locale's abbreviated month name (e.g., Jan)[m
+[m
+       %B     locale's full month name (e.g., January)[m
+[m
+       %c     locale's date and time (e.g., Thu Mar  3 23:05:25 2005)[m
+[m
+       %C     century; like %Y, except omit last two digits (e.g., 20)[m
+[m
+[7m Manual page date(1) line 1/191 37% (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ man date
+[?1049h[?1h=DATE(1)                                            User Commands                                           DATE(1)[m
+[m
+[1mNAME[0m[m
+       date - print or set the system date and time[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mdate[0m [[4mOPTION[24m]... [[4m+FORMAT[24m][m
+       [1mdate[0m [[4m-u|--utc|--universal[24m] [[4mMMDDhhmm[24m[[[4mCC[24m][4mYY[24m][[4m.ss[24m]][m
+[m
+[1mDESCRIPTION[0m[m
+       Display the current time in the given FORMAT, or set the system date.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-d[0m, [1m--date[0m=[4mSTRING[24m[m
+              display time described by STRING, not 'now'[m
+[m
+       [1m-f[0m, [1m--file[0m=[4mDATEFILE[24m[m
+              like [1m--date[0m; once for each line of DATEFILE[m
+[m
+       [1m-I[FMT][0m, [1m--iso-8601[0m[=[4mFMT[24m][m
+              output  date/time  in  ISO 8601 format.  FMT='date' for date only (the default), 'hours', 'minutes',[m
+              'seconds', or 'ns' for date and time to the indicated precision.  Example: 2006-08-14T02:34:56-0600[m
+[m
+       [1m-R[0m, [1m--rfc-2822[0m[m
+              output date and time in RFC 2822 format.  Example: Mon, 14 Aug 2006 02:34:56 [1m-0600[0m[m
+[m
+       [1m--rfc-3339[0m=[4mFMT[24m[m
+              output date/time in RFC 3339 format.  FMT='date', 'seconds', or 'ns' for date and time to the  indi‐[m
+              cated precision.  Example: 2006-08-14 02:34:56-06:00[m
+[m
+       [1m-r[0m, [1m--reference[0m=[4mFILE[24m[m
+              display the last modification time of FILE[m
+[m
+       [1m-s[0m, [1m--set[0m=[4mSTRING[24m[m
+              set time described by STRING[m
+[m
+       [1m-u[0m, [1m--utc[0m, [1m--universal[0m[m
+              print or set Coordinated Universal Time (UTC)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       FORMAT controls the output.  Interpreted sequences are:[m
+[m
+       %%     a literal %[m
+[m
+       %a     locale's abbreviated weekday name (e.g., Sun)[m
+[m
+       %A     locale's full weekday name (e.g., Sunday)[m
+[m
+       %b     locale's abbreviated month name (e.g., Jan)[m
+[m
+       %B     locale's full month name (e.g., January)[m
+[m
+       %c     locale's date and time (e.g., Thu Mar  3 23:05:25 2005)[m
+[m
+       %C     century; like %Y, except omit last two digits (e.g., 20)[m
+[m
+[7m Manual page date(1) line 1 (press h for help or q to quit)[27m[K[K...skipping...
+[m
+                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[m
+      Commands marked with * may be preceded by a number, [4mN[24m.[m
+      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[m
+  h  H                 Display this help.[m
+  q  :q  Q  :Q  ZZ     Exit.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mMOVING[0m[m
+[m
+  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+  z                 *  Forward  one window (and set window to [4mN[24m).[m
+  w                 *  Backward one window (and set window to [4mN[24m).[m
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+  ESC-)  RightArrow *  Left  one half screen width (or [4mN[24m positions).[m
+  ESC-(  LeftArrow  *  Right one half screen width (or [4mN[24m positions).[m
+  F                    Forward forever; like "tail -f".[m
+  ESC-F                Like F but stop when search pattern is found.[m
+  r  ^R  ^L            Repaint screen.[m
+  R                    Repaint screen, discarding buffered input.[m
+        ---------------------------------------------------[m
+        Default "window" is the screen height.[m
+        Default "half-window" is half of the screen height.[m
+ ---------------------------------------------------------------------------[m
+[m
+                          [1mSEARCHING[0m[m
+[m
+  /[4mpattern[24m          *  Search forward for ([4mN[24m-th) matching line.[m
+  ?[4mpattern[24m          *  Search backward for ([4mN[24m-th) matching line.[m
+  n                 *  Repeat previous search (for [4mN[24m-th occurrence).[m
+  N                 *  Repeat previous search in reverse direction.[m
+  ESC-n             *  Repeat previous search, spanning files.[m
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.[m
+  ESC-u                Undo (toggle) search highlighting.[m
+  &[4mpattern[24m          *  Display only matching lines[m
+        ---------------------------------------------------[m
+        A search pattern may be preceded by one or more of:[m
+        ^N or !  Search for NON-matching lines.[m
+        ^E or *  Search multiple files (pass thru END OF FILE).[m
+        ^F or @  Start search at FIRST file (for /) or last file (for ?).[m
+        ^K       Highlight matches, but don't move (KEEP position).[m
+        ^R       Don't use REGULAR EXPRESSIONS.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mJUMPING[0m[m
+[m
+  g  <  ESC-<       *  Go to first line in file (or line [4mN[24m).[m
+  G  >  ESC->       *  Go to last line in file (or line [4mN[24m).[m
+  p  %              *  Go to beginning of file (or [4mN[24m percent into file).[m
+  t                 *  Go to the ([4mN[24m-th) next tag.[m
+  T                 *  Go to the ([4mN[24m-th) previous tag.[m
+  {  (  [           *  Find close bracket } ) ].[m
+  }  )  ]           *  Find open bracket { ( [.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  ESC-^F [4m<c1>[24m [4m<c2>[24m  *  Find close bracket [4m<c2>[24m.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[Kff[Kii[Kll[Kee[K[1;1H                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[2;1H[m
+[3;1H      Commands marked with * may be preceded by a number, [4mN[24m.[m
+[4;1H      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+[5;1H      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[6;1H[m
+[7;1H  h  H                 Display this help.[m
+[8;1H  q  :q  Q  :Q  ZZ     Exit.[m
+[9;1H ---------------------------------------------------------------------------[m
+[10;1H[m
+[11;1H                           [1mMOVING[0m[m
+[12;1H[m
+[13;1H  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+[14;1H  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+[15;1H  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+[16;1H  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+[17;1H  z                 *  Forward  one window (and set window to [4mN[24m).[m
+[18;1H  w                 *  Backward one window (and set window to [4mN[24m).[m
+[19;1H  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+[20;1H  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+[21;1H  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+[22;1H  ESC-)  RightArrow *  Left  one half screen width (or [4mN[24m positions).[m
+[23;1H  ESC-(  LeftArrow  *  Right one half screen width (or [4mN[24m positions).[m
+[24;1H  F                    Forward forever; like "tail -f".[m
+[25;1H  ESC-F                Like F but stop when search pattern is found.[m
+[26;1H  r  ^R  ^L            Repaint screen.[m
+[27;1H  R                    Repaint screen, discarding buffered input.[m
+[28;1H        ---------------------------------------------------[m
+[29;1H        Default "window" is the screen height.[m
+[30;1H        Default "half-window" is half of the screen height.[m
+[31;1H ---------------------------------------------------------------------------[m
+[32;1H[m
+[33;1H                          [1mSEARCHING[0m[m
+[34;1H[m
+[35;1H  /[4mpattern[24m          *  Search forward for ([4mN[24m-th) matching line.[m
+[36;1H  ?[4mpattern[24m          *  Search backward for ([4mN[24m-th) matching line.[m
+[37;1H  n                 *  Repeat previous search (for [4mN[24m-th occurrence).[m
+[38;1H  N                 *  Repeat previous search in reverse direction.[m
+[39;1H  ESC-n             *  Repeat previous search, spanning files.[m
+[40;1H  ESC-N             *  Repeat previous search, reverse dir. & spanning files.[m
+[41;1H  ESC-u                Undo (toggle) search highlighting.[m
+[42;1H  &[4mpattern[24m          *  Display only matching lines[m
+[43;1H        ---------------------------------------------------[m
+[44;1H        A search pattern may be preceded by one or more of:[m
+[45;1H        ^N or !  Search for NON-matching lines.[m
+[46;1H        ^E or *  Search multiple files (pass thru END OF FILE).[m
+[47;1H        ^F or @  Start search at FIRST file (for /) or last file (for ?).[m
+[48;1H        ^K       Highlight matches, but don't move (KEEP position).[m
+[49;1H        ^R       Don't use REGULAR EXPRESSIONS.[m
+[50;1H ---------------------------------------------------------------------------[m
+[51;1H[m
+[52;1H                           [1mJUMPING[0m[m
+[53;1H[m
+[54;1H  g  <  ESC-<       *  Go to first line in file (or line [4mN[24m).[m
+[55;1H  G  >  ESC->       *  Go to last line in file (or line [4mN[24m).[m
+[56;1H  p  %              *  Go to beginning of file (or [4mN[24m percent into file).[m
+[57;1H  t                 *  Go to the ([4mN[24m-th) next tag.[m
+[58;1H  T                 *  Go to the ([4mN[24m-th) previous tag.[m
+[59;1H  {  (  [           *  Find close bracket } ) ].[m
+[60;1H  }  )  ]           *  Find open bracket { ( [.[m
+[61;1H  ESC-^F [4m<c1>[24m [4m<c2>[24m  *  Find close bracket [4m<c2>[24m.[m
+[62;1H[1;1H                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[2;1H[m
+[3;1H      Commands marked with * may be preceded by a number, [4mN[24m.[m
+[4;1H      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+[5;1H      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[6;1H[m
+[7;1H  h  H                 Display this help.[m
+[8;1H  q  :q  Q  :Q  ZZ     Exit.[m
+[9;1H ---------------------------------------------------------------------------[m
+[10;1H[m
+[11;1H                           [1mMOVING[0m[m
+[12;1H[m
+[13;1H  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+[14;1H  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+[15;1H  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+[16;1H  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+[17;1H  z                 *  Forward  one window (and set window to [4mN[24m).[m
+[18;1H  w                 *  Backward one window (and set window to [4mN[24m).[m
+[19;1H  ESC-SPACE         *  Forward  one window, but don't stop at end-of-[7mfile[27m.[m
+[20;1H  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+[21;1H  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+[22;1H  ESC-)  RightArrow *  Left  one half screen width (or [4mN[24m positions).[m
+[23;1H  ESC-(  LeftArrow  *  Right one half screen width (or [4mN[24m positions).[m
+[24;1H  F                    Forward forever; like "tail -f".[m
+[25;1H  ESC-F                Like F but stop when search pattern is found.[m
+[26;1H  r  ^R  ^L            Repaint screen.[m
+[27;1H  R                    Repaint screen, discarding buffered input.[m
+[28;1H        ---------------------------------------------------[m
+[29;1H        Default "window" is the screen height.[m
+[30;1H        Default "half-window" is half of the screen height.[m
+[31;1H ---------------------------------------------------------------------------[m
+[32;1H[m
+[33;1H                          [1mSEARCHING[0m[m
+[34;1H[m
+[35;1H  /[4mpattern[24m          *  Search forward for ([4mN[24m-th) matching line.[m
+[36;1H  ?[4mpattern[24m          *  Search backward for ([4mN[24m-th) matching line.[m
+[37;1H  n                 *  Repeat previous search (for [4mN[24m-th occurrence).[m
+[38;1H  N                 *  Repeat previous search in reverse direction.[m
+[39;1H  ESC-n             *  Repeat previous search, spanning [7mfile[27ms.[m
+[40;1H  ESC-N             *  Repeat previous search, reverse dir. & spanning [7mfile[27ms.[m
+[41;1H  ESC-u                Undo (toggle) search highlighting.[m
+[42;1H  &[4mpattern[24m          *  Display only matching lines[m
+[43;1H        ---------------------------------------------------[m
+[44;1H        A search pattern may be preceded by one or more of:[m
+[45;1H        ^N or !  Search for NON-matching lines.[m
+[46;1H        ^E or *  Search multiple [7mfile[27ms (pass thru END OF [7mFILE[27m).[m
+[47;1H        ^F or @  Start search at FIRST [7mfile[27m (for /) or last [7mfile[27m (for ?).[m
+[48;1H        ^K       Highlight matches, but don't move (KEEP position).[m
+[49;1H        ^R       Don't use REGULAR EXPRESSIONS.[m
+[50;1H ---------------------------------------------------------------------------[m
+[51;1H[m
+[52;1H                           [1mJUMPING[0m[m
+[53;1H[m
+[54;1H  g  <  ESC-<       *  Go to first line in [7mfile[27m (or line [4mN[24m).[m
+[55;1H  G  >  ESC->       *  Go to last line in [7mfile[27m (or line [4mN[24m).[m
+[56;1H  p  %              *  Go to beginning of [7mfile[27m (or [4mN[24m percent into [7mfile[27m).[m
+[57;1H  t                 *  Go to the ([4mN[24m-th) next tag.[m
+[58;1H  T                 *  Go to the ([4mN[24m-th) previous tag.[m
+[59;1H  {  (  [           *  Find close bracket } ) ].[m
+[60;1H  }  )  ]           *  Find open bracket { ( [.[m
+[61;1H  ESC-^F [4m<c1>[24m [4m<c2>[24m  *  Find close bracket [4m<c2>[24m.[m
+[62;1H  ESC-^B [4m<c1>[24m [4m<c2>[24m  *  Find open bracket [4m<c1>[24m [m
+        ---------------------------------------------------[m
+        Each "find close bracket" command goes forward to the close bracket [m
+          matching the ([4mN[24m-th) open bracket in the top line.[m
+        Each "find open bracket" command goes backward to the open bracket [m
+          matching the ([4mN[24m-th) close bracket in the bottom line.[m
+[m
+  m[4m<letter>[24m            Mark the current position with <letter>.[m
+  '[4m<letter>[24m            Go to a previously marked position.[m
+  ''                   Go to the previous position.[m
+  ^X^X                 Same as '.[m
+        ---------------------------------------------------[m
+        A mark is any upper-case or lower-case letter.[m
+        Certain marks are predefined:[m
+             ^  means  beginning of the [7mfile[27m[m
+             $  means  end of the [7mfile[27m[m
+ ---------------------------------------------------------------------------[m
+[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K                        [1mCHANGING[0m [1m[7mFILE[27m[0m[1mS[0m[m
+[m
+  :e [[4m[7mfile[27m[24m]            Examine a new [7mfile[27m.[m
+  ^X^V                 Same as :e.[m
+  :n                *  Examine the ([4mN[24m-th) next [7mfile[27m from the command line.[m
+  :p                *  Examine the ([4mN[24m-th) previous [7mfile[27m from the command line.[m
+  :x                *  Examine the first (or [4mN[24m-th) [7mfile[27m from the command line.[m
+  :d                   Delete the current [7mfile[27m from the command line list.[m
+  =  ^G  :f            Print current [7mfile[27m name.[m
+ ---------------------------------------------------------------------------[m
+[m
+                    [1mMISCELLANEOUS[0m [1mCOMMANDS[0m[m
+[m
+  -[4m<flag>[24m              Toggle a command line option [see OPTIONS below].[m
+  --[4m<name>[24m             Toggle a command line option, by name.[m
+  _[4m<flag>[24m              Display the setting of a command line option.[m
+  __[4m<name>[24m             Display the setting of an option, by name.[m
+  +[4mcmd[24m                 Execute the less cmd each time a new [7mfile[27m is examined.[m
+[m
+  ![4mcommand[24m             Execute the shell command with $SHELL.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K  |[1mX[0m[4mcommand[24m            Pipe [7mfile[27m between current pos & mark [1mX[0m to shell command.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K  v                    Edit the current [7mfile[27m with $VISUAL or $EDITOR.[m
+  V                    Print version number of "less".[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mOPTIONS[0m[m
+[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K        Most options may be changed either on the command line,[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K        or from within less by using the - or -- command.[m
+        Options may be given in one of two forms: either a single[m
+        character preceded by a -, or a name preceded by --.[m
+[m
+  -?  ........  --help[m
+                  Display help (from command line).[m
+  -a  ........  --search-skip-screen[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K                  Search skips current screen.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K  -A  ........  --SEARCH-SKIP-SCREEN[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K                  Search starts just after target line.[m
+  -b [[4mN[24m]  ....  --buffers=[[4mN[24m][m
+                  Number of buffers.[m
+  -B  ........  --auto-buffers[m
+                  Don't automatically allocate buffers for pipes.[m
+  -c  ........  --clear-screen[m
+                  Repaint by clearing rather than scrolling.[m
+  -d  ........  --dumb[m
+                  Dumb terminal.[m
+  -D [[4mxn.n[24m]  .  --color=[4mxn.n[24m[m
+                  Set screen colors. (MS-DOS only)[m
+  -e  -E  ....  --quit-at-eof  --QUIT-AT-EOF[m
+                  Quit at end of [7mfile[27m.[m
+  -f  ........  --force[m
+                  Force open non-regular [7mfile[27ms.[m
+  -F  ........  --quit-if-one-screen[m
+                  Quit if entire [7mfile[27m fits on first screen.[m
+  -g  ........  --hilite-search[m
+                  Highlight only last match for searches.[m
+  -G  ........  --HILITE-SEARCH[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K                  Don't highlight any matches for searches.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K  -h [[4mN[24m]  ....  --max-back-scroll=[[4mN[24m][m
+                  Backward scroll limit.[m
+  -i  ........  --ignore-case[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K                  Ignore case in searches that do not contain uppercase.[m
+  -I  ........  --IGNORE-CASE[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K                  Ignore case in all searches.[m
+  -j [[4mN[24m]  ....  --jump-target=[[4mN[24m][m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K                  Screen position of target lines.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K  -J  ........  --status-column[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K                  Display a status column at left edge of screen.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K  -k [[4m[7mfile[27m[24m]  .  --lesskey-[7mfile[27m=[[4m[7mfile[27m[24m][m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K                  Use a lesskey [7mfile[27m.[m
+  -K            --quit-on-intr[m
+                  Exit less in response to ctrl-C.[m
+  -L  ........  --no-lessopen[m
+                  Ignore the LESSOPEN environment variable.[m
+  -m  -M  ....  --long-prompt  --LONG-PROMPT[m
+                  Set prompt style.[m
+  -n  -N  ....  --line-numbers  --LINE-NUMBERS[m
+                  Don't use line numbers.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K  -o [[4m[7mfile[27m[24m]  .  --log-[7mfile[27m=[[4m[7mfile[27m[24m][m
+                  Copy to log [7mfile[27m (standard input only).[m
+  -O [[4m[7mfile[27m[24m]  .  --LOG-[7mFILE[27m=[[4m[7mfile[27m[24m][m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K                  Copy to log [7mfile[27m (unconditionally overwrite).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K  -p [[4mpattern[24m]  --pattern=[[4mpattern[24m][m
+                  Start at pattern (from command line).[m
+  -P [[4mprompt[24m]   --prompt=[[4mprompt[24m][m
+                  Define new prompt.[m
+  -q  -Q  ....  --quiet  --QUIET  --silent --SILENT[m
+                  Quiet the terminal bell.[m
+  -r  -R  ....  --raw-control-chars  --RAW-CONTROL-CHARS[m
+                  Output "raw" control characters.[m
+  -s  ........  --squeeze-blank-lines[m
+                  Squeeze multiple blank lines.[m
+  -S  ........  --chop-long-lines[m
+                  Chop (truncate) long lines rather than wrapping.[m
+  -t [[4mtag[24m]  ..  --tag=[[4mtag[24m][m
+                  Find a tag.[m
+  -T [[4mtags[24m[4m[7mfile[27m[24m] --tag-[7mfile[27m=[[4mtags[24m[4m[7mfile[27m[24m][m
+                  Use an alternate tags [7mfile[27m.[m
+  -u  -U  ....  --underline-special  --UNDERLINE-SPECIAL[m
+                  Change handling of backspaces.[m
+  -V  ........  --version[m
+                  Display the version number of "less".[m
+  -w  ........  --hilite-unread[m
+                  Highlight first new line after forward-screen.[m
+  -W  ........  --HILITE-UNREAD[m
+                  Highlight first new line after any forward movement.[m
+  -x [[4mN[24m[,...]]  --tabs=[[4mN[24m[,...]][m
+                  Set tab stops.[m
+  -X  ........  --no-init[m
+                  Don't use termcap init/deinit strings.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K  -y [[4mN[24m]  ....  --max-forw-scroll=[[4mN[24m][m
+                  Forward scroll limit.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K  -z [[4mN[24m]  ....  --window=[[4mN[24m][m
+                  Set size of window.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K  -" [[4mc[24m[[4mc[24m]]  .  --quotes=[[4mc[24m[[4mc[24m]][m
+                  Set shell quote characters.[m
+  -~  ........  --tilde[m
+                  Don't display tildes after end of [7mfile[27m.[m
+  -# [[4mN[24m]  ....  --shift=[[4mN[24m][m
+                  Horizontal scroll amount (0 = one half screen width)[m
+      ........  --no-keypad[m
+                  Don't send termcap keypad init/deinit strings.[m
+      ........  --follow-name[m
+                  The F command changes [7mfile[27ms if the input [7mfile[27m is renamed.[m
+      ........  --use-backslash[m
+                  Subsequent options use backslash as escape char.[m
+[m
+[m
+ ---------------------------------------------------------------------------[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K                          [1mLINE[0m [1mEDITING[0m[m
+[m
+        These keys can be used to edit text being entered [m
+        on the "command line" at the bottom of the screen.[m
+[m
+ RightArrow ..................... ESC-l ... Move cursor right one character.[m
+ LeftArrow ...................... ESC-h ... Move cursor left one character.[m
+ ctrl-RightArrow  ESC-RightArrow  ESC-w ... Move cursor right one word.[m
+ ctrl-LeftArrow   ESC-LeftArrow   ESC-b ... Move cursor left one word.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K HOME ........................... ESC-0 ... Move cursor to start of line.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K END ............................ ESC-$ ... Move cursor to end of line.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K BACKSPACE ................................ Delete char to left of cursor.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K DELETE ......................... ESC-x ... Delete char under cursor.[m
+ ctrl-BACKSPACE   ESC-BACKSPACE ........... Delete word to left of cursor.[m
+ ctrl-DELETE .... ESC-DELETE .... ESC-X ... Delete word under cursor.[m
+ ctrl-U ......... ESC (MS-DOS only) ....... Delete entire line.[m
+ UpArrow ........................ ESC-k ... Retrieve previous command line.[m
+ DownArrow ...................... ESC-j ... Retrieve next command line.[m
+ TAB ...................................... Complete [7mfile[27mname & cycle.[m
+ SHIFT-TAB ...................... ESC-TAB   Complete [7mfile[27mname & reverse cycle.[m
+ ctrl-L ................................... Complete [7mfile[27mname, list all.[m
+[m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K/[K[1m~[0m
+[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K/[K[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K/[K[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K/[K[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K/[K[1m~[0m
+[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K/[K[1m~[0m
+[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K/[K[K[7mPattern not found  (press RETURN)[27m[62;1H[K[K/[K[K[7mPattern not found  (press RETURN)[27m[62;1H[K[K/[K[K[7mPattern not found  (press RETURN)[27m[62;1H[K[K/[K[K[7mPattern not found  (press RETURN)[27m[62;1H[K[K/[K[K[7mPattern not found  (press RETURN)[27m[62;1H[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[H[2J[HM  }  )  ]           *  Find open bracket { ( [.[m
+[HM  {  (  [           *  Find close bracket } ) ].[m
+[HM  T                 *  Go to the ([4mN[24m-th) previous tag.[m
+[HM  t                 *  Go to the ([4mN[24m-th) next tag.[m
+[HM  p  %              *  Go to beginning of [7mfile[27m (or [4mN[24m percent into [7mfile[27m).[m
+[HM  G  >  ESC->       *  Go to last line in [7mfile[27m (or line [4mN[24m).[m
+[HM  g  <  ESC-<       *  Go to first line in [7mfile[27m (or line [4mN[24m).[m
+[HM[m
+[HM                           [1mJUMPING[0m[m
+[HM[m
+[HM ---------------------------------------------------------------------------[m
+[HM        ^R       Don't use REGULAR EXPRESSIONS.[m
+[HM        ^K       Highlight matches, but don't move (KEEP position).[m
+[HM        ^F or @  Start search at FIRST [7mfile[27m (for /) or last [7mfile[27m (for ?).[m
+[HM        ^E or *  Search multiple [7mfile[27ms (pass thru END OF [7mFILE[27m).[m
+[HM        ^N or !  Search for NON-matching lines.[m
+[HM        A search pattern may be preceded by one or more of:[m
+[HM        ---------------------------------------------------[m
+[HM  &[4mpattern[24m          *  Display only matching lines[m
+[HM  ESC-u                Undo (toggle) search highlighting.[m
+[HM  ESC-N             *  Repeat previous search, reverse dir. & spanning [7mfile[27ms.[m
+[HM  ESC-n             *  Repeat previous search, spanning [7mfile[27ms.[m
+[HM  N                 *  Repeat previous search in reverse direction.[m
+[HM  n                 *  Repeat previous search (for [4mN[24m-th occurrence).[m
+[HM  ?[4mpattern[24m          *  Search backward for ([4mN[24m-th) matching line.[m
+[HM  /[4mpattern[24m          *  Search forward for ([4mN[24m-th) matching line.[m
+[HM[m
+[HM                          [1mSEARCHING[0m[m
+[HM[m
+[HM ---------------------------------------------------------------------------[m
+[HM        Default "half-window" is half of the screen height.[m
+[HM        Default "window" is the screen height.[m
+[HM        ---------------------------------------------------[m
+[HM  R                    Repaint screen, discarding buffered input.[m
+[HM  r  ^R  ^L            Repaint screen.[m
+[HM  ESC-F                Like F but stop when search pattern is found.[m
+[HM  F                    Forward forever; like "tail -f".[m
+[HM  ESC-(  LeftArrow  *  Right one half screen width (or [4mN[24m positions).[m
+[HM  ESC-)  RightArrow *  Left  one half screen width (or [4mN[24m positions).[m
+[HM  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+[HM  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+[HM  ESC-SPACE         *  Forward  one window, but don't stop at end-of-[7mfile[27m.[m
+[HM  w                 *  Backward one window (and set window to [4mN[24m).[m
+[HM  z                 *  Forward  one window (and set window to [4mN[24m).[m
+[HM  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+[HM  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+[HM  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+[HM  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+[HM[m
+[HM                           [1mMOVING[0m[m
+[HM[m
+[HM ---------------------------------------------------------------------------[m
+[HM  q  :q  Q  :Q  ZZ     Exit.[m
+[HM  h  H                 Display this help.[m
+[HM[m
+[HM      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[HM      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+[HM      Commands marked with * may be preceded by a number, [4mN[24m.[m
+[HM[m
+[HM                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[HM[m
+[62;1H[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K  ESC-^F [4m<c1>[24m [4m<c2>[24m  *  Find close bracket [4m<c2>[24m.[m
+  ESC-^B [4m<c1>[24m [4m<c2>[24m  *  Find open bracket [4m<c1>[24m [m
+        ---------------------------------------------------[m
+        Each "find close bracket" command goes forward to the close bracket [m
+          matching the ([4mN[24m-th) open bracket in the top line.[m
+        Each "find open bracket" command goes backward to the open bracket [m
+          matching the ([4mN[24m-th) close bracket in the bottom line.[m
+[m
+  m[4m<letter>[24m            Mark the current position with <letter>.[m
+  '[4m<letter>[24m            Go to a previously marked position.[m
+  ''                   Go to the previous position.[m
+  ^X^X                 Same as '.[m
+        ---------------------------------------------------[m
+        A mark is any upper-case or lower-case letter.[m
+        Certain marks are predefined:[m
+             ^  means  beginning of the [7mfile[27m[m
+             $  means  end of the [7mfile[27m[m
+ ---------------------------------------------------------------------------[m
+[m
+                        [1mCHANGING[0m [1m[7mFILE[27m[0m[1mS[0m[m
+[m
+  :e [[4m[7mfile[27m[24m]            Examine a new [7mfile[27m.[m
+  ^X^V                 Same as :e.[m
+  :n                *  Examine the ([4mN[24m-th) next [7mfile[27m from the command line.[m
+  :p                *  Examine the ([4mN[24m-th) previous [7mfile[27m from the command line.[m
+  :x                *  Examine the first (or [4mN[24m-th) [7mfile[27m from the command line.[m
+  :d                   Delete the current [7mfile[27m from the command line list.[m
+  =  ^G  :f            Print current [7mfile[27m name.[m
+ ---------------------------------------------------------------------------[m
+[m
+                    [1mMISCELLANEOUS[0m [1mCOMMANDS[0m[m
+[m
+  -[4m<flag>[24m              Toggle a command line option [see OPTIONS below].[m
+  --[4m<name>[24m             Toggle a command line option, by name.[m
+  _[4m<flag>[24m              Display the setting of a command line option.[m
+  __[4m<name>[24m             Display the setting of an option, by name.[m
+  +[4mcmd[24m                 Execute the less cmd each time a new [7mfile[27m is examined.[m
+[m
+  ![4mcommand[24m             Execute the shell command with $SHELL.[m
+  |[1mX[0m[4mcommand[24m            Pipe [7mfile[27m between current pos & mark [1mX[0m to shell command.[m
+  v                    Edit the current [7mfile[27m with $VISUAL or $EDITOR.[m
+  V                    Print version number of "less".[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mOPTIONS[0m[m
+[m
+        Most options may be changed either on the command line,[m
+        or from within less by using the - or -- command.[m
+        Options may be given in one of two forms: either a single[m
+        character preceded by a -, or a name preceded by --.[m
+[m
+  -?  ........  --help[m
+                  Display help (from command line).[m
+  -a  ........  --search-skip-screen[m
+                  Search skips current screen.[m
+  -A  ........  --SEARCH-SKIP-SCREEN[m
+                  Search starts just after target line.[m
+  -b [[4mN[24m]  ....  --buffers=[[4mN[24m][m
+                  Number of buffers.[m
+  -B  ........  --auto-buffers[m
+                  Don't automatically allocate buffers for pipes.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -c  ........  --clear-screen[m
+                  Repaint by clearing rather than scrolling.[m
+  -d  ........  --dumb[m
+                  Dumb terminal.[m
+  -D [[4mxn.n[24m]  .  --color=[4mxn.n[24m[m
+                  Set screen colors. (MS-DOS only)[m
+  -e  -E  ....  --quit-at-eof  --QUIT-AT-EOF[m
+                  Quit at end of [7mfile[27m.[m
+  -f  ........  --force[m
+                  Force open non-regular [7mfile[27ms.[m
+  -F  ........  --quit-if-one-screen[m
+                  Quit if entire [7mfile[27m fits on first screen.[m
+  -g  ........  --hilite-search[m
+                  Highlight only last match for searches.[m
+  -G  ........  --HILITE-SEARCH[m
+                  Don't highlight any matches for searches.[m
+  -h [[4mN[24m]  ....  --max-back-scroll=[[4mN[24m][m
+                  Backward scroll limit.[m
+  -i  ........  --ignore-case[m
+                  Ignore case in searches that do not contain uppercase.[m
+  -I  ........  --IGNORE-CASE[m
+                  Ignore case in all searches.[m
+  -j [[4mN[24m]  ....  --jump-target=[[4mN[24m][m
+                  Screen position of target lines.[m
+  -J  ........  --status-column[m
+                  Display a status column at left edge of screen.[m
+  -k [[4m[7mfile[27m[24m]  .  --lesskey-[7mfile[27m=[[4m[7mfile[27m[24m][m
+                  Use a lesskey [7mfile[27m.[m
+  -K            --quit-on-intr[m
+                  Exit less in response to ctrl-C.[m
+  -L  ........  --no-lessopen[m
+                  Ignore the LESSOPEN environment variable.[m
+  -m  -M  ....  --long-prompt  --LONG-PROMPT[m
+                  Set prompt style.[m
+  -n  -N  ....  --line-numbers  --LINE-NUMBERS[m
+                  Don't use line numbers.[m
+  -o [[4m[7mfile[27m[24m]  .  --log-[7mfile[27m=[[4m[7mfile[27m[24m][m
+                  Copy to log [7mfile[27m (standard input only).[m
+  -O [[4m[7mfile[27m[24m]  .  --LOG-[7mFILE[27m=[[4m[7mfile[27m[24m][m
+                  Copy to log [7mfile[27m (unconditionally overwrite).[m
+  -p [[4mpattern[24m]  --pattern=[[4mpattern[24m][m
+                  Start at pattern (from command line).[m
+  -P [[4mprompt[24m]   --prompt=[[4mprompt[24m][m
+                  Define new prompt.[m
+  -q  -Q  ....  --quiet  --QUIET  --silent --SILENT[m
+                  Quiet the terminal bell.[m
+  -r  -R  ....  --raw-control-chars  --RAW-CONTROL-CHARS[m
+                  Output "raw" control characters.[m
+  -s  ........  --squeeze-blank-lines[m
+                  Squeeze multiple blank lines.[m
+  -S  ........  --chop-long-lines[m
+                  Chop (truncate) long lines rather than wrapping.[m
+  -t [[4mtag[24m]  ..  --tag=[[4mtag[24m][m
+                  Find a tag.[m
+  -T [[4mtags[24m[4m[7mfile[27m[24m] --tag-[7mfile[27m=[[4mtags[24m[4m[7mfile[27m[24m][m
+                  Use an alternate tags [7mfile[27m.[m
+  -u  -U  ....  --underline-special  --UNDERLINE-SPECIAL[m
+                  Change handling of backspaces.[m
+  -V  ........  --version[m
+                  Display the version number of "less".[m
+  -w  ........  --hilite-unread[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Highlight first new line after forward-screen.[m
+  -W  ........  --HILITE-UNREAD[m
+                  Highlight first new line after any forward movement.[m
+  -x [[4mN[24m[,...]]  --tabs=[[4mN[24m[,...]][m
+                  Set tab stops.[m
+  -X  ........  --no-init[m
+                  Don't use termcap init/deinit strings.[m
+  -y [[4mN[24m]  ....  --max-forw-scroll=[[4mN[24m][m
+                  Forward scroll limit.[m
+  -z [[4mN[24m]  ....  --window=[[4mN[24m][m
+                  Set size of window.[m
+  -" [[4mc[24m[[4mc[24m]]  .  --quotes=[[4mc[24m[[4mc[24m]][m
+                  Set shell quote characters.[m
+  -~  ........  --tilde[m
+                  Don't display tildes after end of [7mfile[27m.[m
+  -# [[4mN[24m]  ....  --shift=[[4mN[24m][m
+                  Horizontal scroll amount (0 = one half screen width)[m
+      ........  --no-keypad[m
+                  Don't send termcap keypad init/deinit strings.[m
+      ........  --follow-name[m
+                  The F command changes [7mfile[27ms if the input [7mfile[27m is renamed.[m
+      ........  --use-backslash[m
+                  Subsequent options use backslash as escape char.[m
+[m
+[m
+ ---------------------------------------------------------------------------[m
+[m
+                          [1mLINE[0m [1mEDITING[0m[m
+[m
+        These keys can be used to edit text being entered [m
+        on the "command line" at the bottom of the screen.[m
+[m
+ RightArrow ..................... ESC-l ... Move cursor right one character.[m
+ LeftArrow ...................... ESC-h ... Move cursor left one character.[m
+ ctrl-RightArrow  ESC-RightArrow  ESC-w ... Move cursor right one word.[m
+ ctrl-LeftArrow   ESC-LeftArrow   ESC-b ... Move cursor left one word.[m
+ HOME ........................... ESC-0 ... Move cursor to start of line.[m
+ END ............................ ESC-$ ... Move cursor to end of line.[m
+ BACKSPACE ................................ Delete char to left of cursor.[m
+ DELETE ......................... ESC-x ... Delete char under cursor.[m
+ ctrl-BACKSPACE   ESC-BACKSPACE ........... Delete word to left of cursor.[m
+ ctrl-DELETE .... ESC-DELETE .... ESC-X ... Delete word under cursor.[m
+ ctrl-U ......... ESC (MS-DOS only) ....... Delete entire line.[m
+ UpArrow ........................ ESC-k ... Retrieve previous command line.[m
+ DownArrow ...................... ESC-j ... Retrieve next command line.[m
+ TAB ...................................... Complete [7mfile[27mname & cycle.[m
+ SHIFT-TAB ...................... ESC-TAB   Complete [7mfile[27mname & reverse cycle.[m
+ ctrl-L ................................... Complete [7mfile[27mname, list all.[m
+[m
+[m
+[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K...skipping...
+DATE(1)                                            User Commands                                           DATE(1)[m
+[m
+[1mNAME[0m[m
+       date - print or set the system date and time[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mdate[0m [[4mOPTION[24m]... [[4m+FORMAT[24m][m
+       [1mdate[0m [[4m-u|--utc|--universal[24m] [[4mMMDDhhmm[24m[[[4mCC[24m][4mYY[24m][[4m.ss[24m]][m
+[m
+[1mDESCRIPTION[0m[m
+       Display the current time in the given FORMAT, or set the system date.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-d[0m, [1m--date[0m=[4mSTRING[24m[m
+              display time described by STRING, not 'now'[m
+[m
+       [1m-f[0m, [1m--[0m[1m[7mfile[27m[0m=[4mDATE[24m[4m[7mFILE[27m[24m[m
+              like [1m--date[0m; once for each line of DATE[7mFILE[27m[m
+[m
+       [1m-I[FMT][0m, [1m--iso-8601[0m[=[4mFMT[24m][m
+              output  date/time  in  ISO 8601 format.  FMT='date' for date only (the default), 'hours', 'minutes',[m
+              'seconds', or 'ns' for date and time to the indicated precision.  Example: 2006-08-14T02:34:56-0600[m
+[m
+       [1m-R[0m, [1m--rfc-2822[0m[m
+              output date and time in RFC 2822 format.  Example: Mon, 14 Aug 2006 02:34:56 [1m-0600[0m[m
+[m
+       [1m--rfc-3339[0m=[4mFMT[24m[m
+              output date/time in RFC 3339 format.  FMT='date', 'seconds', or 'ns' for date and time to the  indi‐[m
+              cated precision.  Example: 2006-08-14 02:34:56-06:00[m
+[m
+       [1m-r[0m, [1m--reference[0m=[4m[7mFILE[27m[24m[m
+              display the last modification time of [7mFILE[27m[m
+[m
+       [1m-s[0m, [1m--set[0m=[4mSTRING[24m[m
+              set time described by STRING[m
+[m
+       [1m-u[0m, [1m--utc[0m, [1m--universal[0m[m
+              print or set Coordinated Universal Time (UTC)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       FORMAT controls the output.  Interpreted sequences are:[m
+[m
+       %%     a literal %[m
+[m
+       %a     locale's abbreviated weekday name (e.g., Sun)[m
+[m
+       %A     locale's full weekday name (e.g., Sunday)[m
+[m
+       %b     locale's abbreviated month name (e.g., Jan)[m
+[m
+       %B     locale's full month name (e.g., January)[m
+[m
+       %c     locale's date and time (e.g., Thu Mar  3 23:05:25 2005)[m
+[m
+       %C     century; like %Y, except omit last two digits (e.g., 20)[m
+[m
+[7m Manual page date(1) line 1/191 37% (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ man -k password
+chage (1)            - change user password expiry information
+chgpasswd (8)        - update group passwords in batch mode
+chpasswd (8)         - update passwords in batch mode
+cpgr (8)             - copy with locking the given file to the password or group file
+cppw (8)             - copy with locking the given file to the password or group file
+crypt (3)            - password and data encryption
+crypt_r (3)          - password and data encryption
+endpwent (3)         - get password file entry
+endspent (3)         - get shadow password file entry
+expiry (1)           - check and enforce password expiration policy
+fgetpwent (3)        - get password file entry
+fgetspent (3)        - get shadow password file entry
+fgetspent_r (3)      - get shadow password file entry
+getpass (3)          - get a password
+getpw (3)            - reconstruct password line entry
+getpwent (3)         - get password file entry
+getpwnam (3)         - get password file entry
+getpwnam_r (3)       - get password file entry
+getpwuid (3)         - get password file entry
+getpwuid_r (3)       - get password file entry
+getspent (3)         - get shadow password file entry
+getspent_r (3)       - get shadow password file entry
+getspnam (3)         - get shadow password file entry
+getspnam_r (3)       - get shadow password file entry
+git-credential-cache (1) - Helper to temporarily store passwords in memory
+gitcredentials (7)   - providing usernames and passwords to Git
+grpconv (8)          - convert to and from shadow passwords and groups
+grpunconv (8)        - convert to and from shadow passwords and groups
+grub-mkpasswd-pbkdf2 (1) - generate hashed password for GRUB
+lckpwdf (3)          - get shadow password file entry
+login.defs (5)       - shadow password suite configuration
+pam_pwhistory (8)    - PAM module to remember last passwords
+pam_unix (8)         - Module for traditional password authentication
+passwd (1)           - change user password
+passwd (1ssl)        - compute password hashes
+passwd (5)           - the password file
+passwd2des (3)       - RFS password encryption
+putpwent (3)         - write a password file entry
+putspent (3)         - get shadow password file entry
+pwck (8)             - verify integrity of password files
+pwconv (8)           - convert to and from shadow passwords and groups
+pwunconv (8)         - convert to and from shadow passwords and groups
+setpwent (3)         - get password file entry
+setspent (3)         - get shadow password file entry
+sgetspent (3)        - get shadow password file entry
+sgetspent_r (3)      - get shadow password file entry
+shadow (5)           - shadowed password file
+shadowconfig (8)     - toggle shadow passwords on and off
+systemd-ask-password (1) - Query the user for a system password
+systemd-ask-password-console.path (8) - Query the user for system passwords on the console and via wall
+systemd-ask-password-console.service (8) - Query the user for system passwords on the console and via wall
+systemd-ask-password-wall.path (8) - Query the user for system passwords on the console and via wall
+systemd-ask-password-wall.service (8) - Query the user for system passwords on the console and via wall
+systemd-tty-ask-password-agent (1) - List or process pending systemd password requests
+ulckpwdf (3)         - get shadow password file entry
+unix_chkpwd (8)      - Helper binary that verifies the password of the current user
+unix_update (8)      - Helper binary that updates the password of a given user
+vigr (8)             - edit the password, group, shadow-password or shadow-group file
+vipw (8)             - edit the password, group, shadow-password or shadow-group file
+xcrypt (3)           - RFS password encryption
+xdecrypt (3)         - RFS password encryption
+xencrypt (3)         - RFS password encryption
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ man -k
+apropos what?
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ 
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ 
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ apropos password
+chage (1)            - change user password expiry information
+chgpasswd (8)        - update group passwords in batch mode
+chpasswd (8)         - update passwords in batch mode
+cpgr (8)             - copy with locking the given file to the password or group file
+cppw (8)             - copy with locking the given file to the password or group file
+crypt (3)            - password and data encryption
+crypt_r (3)          - password and data encryption
+endpwent (3)         - get password file entry
+endspent (3)         - get shadow password file entry
+expiry (1)           - check and enforce password expiration policy
+fgetpwent (3)        - get password file entry
+fgetspent (3)        - get shadow password file entry
+fgetspent_r (3)      - get shadow password file entry
+getpass (3)          - get a password
+getpw (3)            - reconstruct password line entry
+getpwent (3)         - get password file entry
+getpwnam (3)         - get password file entry
+getpwnam_r (3)       - get password file entry
+getpwuid (3)         - get password file entry
+getpwuid_r (3)       - get password file entry
+getspent (3)         - get shadow password file entry
+getspent_r (3)       - get shadow password file entry
+getspnam (3)         - get shadow password file entry
+getspnam_r (3)       - get shadow password file entry
+git-credential-cache (1) - Helper to temporarily store passwords in memory
+gitcredentials (7)   - providing usernames and passwords to Git
+grpconv (8)          - convert to and from shadow passwords and groups
+grpunconv (8)        - convert to and from shadow passwords and groups
+grub-mkpasswd-pbkdf2 (1) - generate hashed password for GRUB
+lckpwdf (3)          - get shadow password file entry
+login.defs (5)       - shadow password suite configuration
+pam_pwhistory (8)    - PAM module to remember last passwords
+pam_unix (8)         - Module for traditional password authentication
+passwd (1)           - change user password
+passwd (1ssl)        - compute password hashes
+passwd (5)           - the password file
+passwd2des (3)       - RFS password encryption
+putpwent (3)         - write a password file entry
+putspent (3)         - get shadow password file entry
+pwck (8)             - verify integrity of password files
+pwconv (8)           - convert to and from shadow passwords and groups
+pwunconv (8)         - convert to and from shadow passwords and groups
+setpwent (3)         - get password file entry
+setspent (3)         - get shadow password file entry
+sgetspent (3)        - get shadow password file entry
+sgetspent_r (3)      - get shadow password file entry
+shadow (5)           - shadowed password file
+shadowconfig (8)     - toggle shadow passwords on and off
+systemd-ask-password (1) - Query the user for a system password
+systemd-ask-password-console.path (8) - Query the user for system passwords on the console and via wall
+systemd-ask-password-console.service (8) - Query the user for system passwords on the console and via wall
+systemd-ask-password-wall.path (8) - Query the user for system passwords on the console and via wall
+systemd-ask-password-wall.service (8) - Query the user for system passwords on the console and via wall
+systemd-tty-ask-password-agent (1) - List or process pending systemd password requests
+ulckpwdf (3)         - get shadow password file entry
+unix_chkpwd (8)      - Helper binary that verifies the password of the current user
+unix_update (8)      - Helper binary that updates the password of a given user
+vigr (8)             - edit the password, group, shadow-password or shadow-group file
+vipw (8)             - edit the password, group, shadow-password or shadow-group file
+xcrypt (3)           - RFS password encryption
+xdecrypt (3)         - RFS password encryption
+xencrypt (3)         - RFS password encryption
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ man -f passwdman -f passwd[K[K[K[K[K[K[K[K[K[K[K[K[K
+passwd (1)           - change user password
+passwd (1ssl)        - compute password hashes
+passwd (5)           - the password file
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ man 5 passwd
+[?1049h[?1h=PASSWD(5)                                  File Formats and Conversions                                  PASSWD(5)[m
+[m
+[1mNAME[0m[m
+       passwd - the password file[m
+[m
+[1mDESCRIPTION[0m[m
+       /etc/passwd contains one line for each user account, with seven fields delimited by colons (“:”). These[m
+       fields are:[m
+[m
+       ·   login name[m
+[m
+       ·   optional encrypted password[m
+[m
+       ·   numerical user ID[m
+[m
+       ·   numerical group ID[m
+[m
+       ·   user name or comment field[m
+[m
+       ·   user home directory[m
+[m
+       ·   optional user command interpreter[m
+[m
+       The encrypted password field may be blank, in which case no password is required to authenticate as the[m
+       specified login name. However, some applications which read the /etc/passwd file may decide not to permit[m
+       [4many[24m access at all if the [4mpassword[24m field is blank. If the [4mpassword[24m field is a lower-case “x”, then the[m
+       encrypted password is actually stored in the [1mshadow[0m(5) file instead; there [4mmust[24m be a corresponding line in[m
+       the /etc/shadow file, or else the user account is invalid. If the [4mpassword[24m field is any other string, then[m
+       it will be treated as an encrypted password, as specified by [1mcrypt[0m(3).[m
+[m
+       The comment field is used by various system utilities, such as [1mfinger[0m(1).[m
+[m
+       The home directory field provides the name of the initial working directory. The [1mlogin[0m program uses this[m
+       information to set the value of the [1m$HOME[0m environmental variable.[m
+[m
+       The command interpreter field provides the name of the user's command language interpreter, or the name of[m
+       the initial program to execute. The [1mlogin[0m program uses this information to set the value of the [1m$SHELL[0m[m
+       environmental variable. If this field is empty, it defaults to the value /bin/sh.[m
+[m
+[1mFILES[0m[m
+       /etc/passwd[m
+           User account information.[m
+[m
+       /etc/shadow[m
+           optional encrypted password file[m
+[m
+       /etc/passwd-[m
+           Backup file for /etc/passwd.[m
+[m
+           Note that this file is used by the tools of the shadow toolsuite, but not by all user and password[m
+           management tools.[m
+[m
+[1mSEE[0m [1mALSO[0m[m
+       [1mcrypt[0m(3), [1mgetent[0m(1), [1mgetpwnam[0m(3), [1mlogin[0m(1), [1mpasswd[0m(1), [1mpwck[0m(8), [1mpwconv[0m(8), [1mpwunconv[0m(8), [1mshadow[0m(5), [1msu[0m(1),[m
+       [1msulogin[0m(8).[m
+[m
+shadow-utils 4.2                                    03/29/2016                                           PASSWD(5)[m
+[7m Manual page passwd(5) line 1/57 (END) (press h for help or q to quit)[27m[K[K [KESCESC[K[[[K44[K[7m Manual page passwd(5) line 1/57 (END) (press h for help or q to quit)[27m[K[K[7m Manual page passwd(5) line 1/57 (END) (press h for help or q to quit)[27m[K[K [KESCESC[K[[[K44[K[7m Manual page passwd(5) line 1/57 (END) (press h for help or q to quit)[27m[K[K[7m Manual page passwd(5) line 1/57 (END) (press h for help or q to quit)[27m[K[K [KESCESC[K[[[K44[K[7m Manual page passwd(5) line 1/57 (END) (press h for help or q to quit)[27m[K[K[7m Manual page passwd(5) line 1/57 (END) (press h for help or q to quit)[27m[K[K [KESCESC[K[[[K44[K[7m Manual page passwd(5) line 1/57 (END) (press h for help or q to quit)[27m[K[K[7m Manual page passwd(5) line 1/57 (END) (press h for help or q to quit)[27m[K[K [KESCESC[K[[[K44[K[7m Manual page passwd(5) line 1/57 (END) (press h for help or q to quit)[27m[K[K[7m Manual page passwd(5) line 1/57 (END) (press h for help or q to quit)[27m[K[K [KESCESC[K[[[K44[K[7m Manual page passwd(5) line 1/57 (END) (press h for help or q to quit)[27m[K[K[7m Manual page passwd(5) line 1/57 (END) (press h for help or q to quit)[27m[K[K [KESCESC[K[[[K44[K[7m Manual page passwd(5) line 1/57 (END) (press h for help or q to quit)[27m[K[K[7m Manual page passwd(5) line 1/57 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ whatis o[Kpasswd
+passwd (1)           - change user password
+passwd (1ssl)        - compute password hashes
+passwd (5)           - the password file
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ whatis[K[K[K[K[K[K-f passwd
+-f: command not found
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ man -f passwd
+passwd (1)           - change user password
+passwd (1ssl)        - compute password hashes
+passwd (5)           - the password file
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ info date
+[?1h=[?1049h[H[2J[62;1HWelcome to Info version 6.1.  Type H for help, h for tutorial.[62;1Hgzip -d < /usr/share/info/coreutils.info.gz...[K[62;1HWelcome to Info version 6.1.  Type H for help, h for tutorial.[1;1HNext: arch invocation,  Up: System context[3;1H21.1 ‘date’: Print or set system date and time[4;1H==============================================[6;1HSynopses:[8;1H     date [OPTION]... [+FORMAT][9;1H     date [-u|--utc|--universal] [ MMDDhhmm[[CC]YY][.ss] ][11;1H   Invoking ‘date’ with no FORMAT argument is equivalent to invoking it[12;1Hwith a default format that depends on the ‘LC_TIME’ locale category.  In[13;1Hthe default C locale, this format is ‘'+%a %b %e %H:%M:%S %Z %Y'’, so[14;1Hthe output looks like ‘Thu Mar  3 13:47:51 PST 2005’.[16;1H   Normally, ‘date’ uses the time zone rules indicated by the ‘TZ’[17;1Henvironment variable, or the system default rules if ‘TZ’ is not set.[18;1H[4m*Note Specifying the Time Zone with ‘TZ’[24m: (libc)TZ Variable.[K[20;1H   If given an argument that starts with a ‘+’, ‘date’ prints the[21;1Hcurrent date and time (or the date and time specified by the ‘--date’[22;1Hoption, see below) in the format defined by that argument, which is[23;1Hsimilar to that of the ‘strftime’ function.  Except for conversion[24;1Hspecifiers, which start with ‘%’, characters in the format string are[25;1Hprinted unchanged.  The conversion specifiers are described below.[27;1H   An exit status of zero indicates success, and a nonzero value[28;1Hindicates failure.[30;1H* Menu:[32;1H[4m* Time conversion specifiers[24m::     %[HIklMNpPrRsSTXzZ][K[33;1H[4m* Date conversion specifiers[24m::     %[aAbBcCdDeFgGhjmuUVwWxyY][K[34;1H[4m* Literal conversion specifiers[24m::  %[%nt][K[35;1H[4m* Padding and other flags[24m::        Pad with zeros, spaces, etc.[K[36;1H[4m* Setting the time[24m::               Changing the system clock.[K[37;1H[4m* Options for date[24m::               Instead of the current time.[K[38;1H[4m* Date input formats[24m::             Specifying date strings.[K[39;1H[4m* Examples of date[24m::               Examples.[K[61;1H[7m-----Info: (coreutils.info.gz)date invocation, 40 lines --All--------------------------------------------------------[0m[1;1H[1;1H[62;1H[K[1;1HINFO(1)                                            User Commands                                           INFO(1)[3;1HNAME[K[4;1H       info - read Info documents[K[6;2HYNOPSIS[K[7;1H       info [OPTION]... [MENU-ITEM...][8;1H[K[9;1HDESCRIPTION[K[10;1H       Read documentation in Info format.[11;1H[K[12;1HOPTIONS[K[13;1H       -a, --all[K[14;1H              use all matching manuals.[K[16;4H    -k, --apropos=STRING[K[17;1H              look up STRING in all indices of all manuals.[K[18;1H[K[19;1H       -d, --directory=DIR[20;4H           add DIR to INFOPATH.[K[21;1H[K[22;1H       --dribble=FILE[K[23;1H              remember user keystrokes in FILENAME.[K[24;1H[K[25;1H       -f, --file=MANUAL[K[26;1H              specify Info manual to visit.[27;1H[K[28;1H       -h, --help[K[29;1H              display this help and exit.[30;1H[K[31;1H       --index-search=STRING[32;1H[K[32;1H              go to node pointed by index entry STRING.[33;1H[K[34;1H[K[34;1H       -n, --node=NODENAME[35;1H[K[35;1H              specify nodes in first visited Info file.[36;1H[K[37;1H[K[37;1H       -o, --output=FILE[38;1H[K[38;1H              output selected nodes to FILE.[39;1H[K[40;1H       -R, --raw-escapes[41;1H              output "raw" ANSI escapes (default).[43;1H       --no-raw-escapes[44;1H              output escapes as literal text.[46;1H       --restore=FILE[47;1H              read initial keystrokes from FILE.[49;1H       -O, --show-options, --usage[50;1H              go to command-line options node.[52;1H       --strict-node-location[53;1H              (for debugging) use Info file pointers as-is.[55;1H       --subnodes[56;1H              recursively output menu items.[58;1H       -v, --variable VAR=VALUE[59;1H              assign VALUE to Info variable VAR.[61;1H[7m-----Info: (*manpages*)info, 159 lines --Top-------------------------------------------------------------------------[0m[1;1H[1;1H[1;1HNext: arch invocation,  Up: System context[K[3;1H21.1 ‘date’: Print or set system date and time[4;1H==============================================[6;2Hynopses:[7;1H[K[8;1H     date [OPTION]... [+FORMAT][9;1H     date [-u|--utc|--universal] [ MMDDhhmm[[CC]YY][.ss] ][10;1H[K[11;1H   Invoking ‘date’ with no FORMAT argument is equivalent to invoking it[12;1Hwith a default format that depends on the ‘LC_TIME’ locale category.  In[13;1Hthe default C locale, this format is ‘'+%a %b %e %H:%M:%S %Z %Y'’, so[14;1Hthe output looks like ‘Thu Mar  3 13:47:51 PST 2005’.[16;4HNormally, ‘date’ uses the time zone rules indicated by the ‘TZ’[17;1Henvironment variable, or the system default rules if ‘TZ’ is not set.[18;1H[4m*Note Specifying the Time Zone with ‘TZ’[24m: (libc)TZ Variable.[K[19;1H[K[20;4HIf given an argument that starts with a ‘+’, ‘date’ prints the[21;1Hcurrent date and time (or the date and time specified by the ‘--date’[22;1Hoption, see below) in the format defined by that argument, which is[23;1Hsimilar to that of the ‘strftime’ function.  Except for conversion[24;1Hspecifiers, which start with ‘%’, characters in the format string are[25;1Hprinted unchanged.  The conversion specifiers are described below.[26;1H[K[27;1H   An exit status of zero indicates success, and a nonzero value[28;1Hindicates failure.[29;1H[K[30;1H* Menu:[31;1H[K[32;1H[4m* Time conversion specifiers[24m::     %[HIklMNpPrRsSTXzZ][K[33;1H[4m* Date conversion specifiers[24m::     %[aAbBcCdDeFgGhjmuUVwWxyY][K[34;1H[4m* Literal conversion specifiers[24m::  %[%nt][K[35;1H[4m* Padding and other flags[24m::        Pad with zeros, spaces, etc.[K[36;1H[4m* Setting the time[24m::               Changing the system clock.[K[37;1H[4m* Options for date[24m::               Instead of the current time.[K[38;1H[4m* Date input formats[24m::             Specifying date strings.[K[39;1H[4m* Examples of date[24m::               Examples.[K[40;1H[K[41;1H[K[43;1H[K[44;1H[K[46;1H[K[47;1H[K[49;1H[K[50;1H[K[52;1H[K[53;1H[K[55;1H[K[56;1H[K[58;1H[K[59;1H[K[61;1H[7m-----Info: (coreutils.info.gz)date invocation, 40 lines --All--------------------------------------------------------[0m[1;1H[1;1H[1;1HFile: dir,      Node: Top,      This is the top of the INFO tree.[3;1HThis is the Info main menu (aka directory node).[4;1HA few useful Info commands:[K[6;1H  'q' quits;[7;1H  '?' lists all Info commands;[8;3H'h' starts the Info tutorial;[9;3H'mTexinfo RET' visits the Texinfo manual, etc.[K[11;1H* Menu:[K[12;1H[K[13;1HArchiving[K[14;1H[4m* Shar utilities[24m: (sharutils).  Shell archiver, uuencode/uudecode.[K[16;1HBasics[K[17;1H[4m* Common options[24m: (coreutils)Common options.[K[18;1H[4m* Coreutils[24m: (coreutils).       Core GNU (file, text, shell) utilities.[K[19;1H[4m* Date input formats[24m: (coreutils)Date input formats.[K[20;1H[4m* Ed[24m: (ed).                     The GNU line editor[K[21;1H[4m* File permissions[24m: (coreutils)File permissions.[K[22;1H                                Access modes.[K[23;1H[4m* Finding files[24m: (find).        Operating on files matching certain criteria.[K[24;1H[K[25;1HC++ libraries[K[26;1H[4m* autosprintf[24m: (autosprintf).   Support for printf format strings in C++.[K[27;1H[K[28;1HCompression[K[29;1H[4m* Gzip[24m: (gzip).                 General (de)compression of files (lzw).[K[30;1H[K[31;1HEditors[32;1H[4m* nano[24m: (nano).                 Small and friendly text editor.[K[33;1H[K[34;1H[K[34;1HGeneral Commands[35;1H[4m* Screen[24m: (screen).             Full-screen window manager.[K[36;1H[K[37;1H[K[37;1HGNU Gettext Utilities[38;1H[4m* autopoint[24m: (gettext)autopoint Invocation.[K[39;1H[K[39;1H                                Copy gettext infrastructure.[40;1H[4m* envsubst[24m: (gettext)envsubst Invocation.[K[41;1H                                Expand environment variables.[42;1H[4m* gettextize[24m: (gettext)gettextize Invocation.[K[43;1H                                Prepare a package for gettext.[44;1H[4m* gettext[24m: (gettext).           GNU gettext utilities.[K[45;1H[4m* ISO3166[24m: (gettext)Country Codes.[K[46;1H                                ISO 3166 country codes.[47;1H[4m* ISO639[24m: (gettext)Language Codes.[K[48;1H                                ISO 639 language codes.[49;1H[4m* msgattrib[24m: (gettext)msgattrib Invocation.[K[50;1H                                Select part of a PO file.[51;1H[4m* msgcat[24m: (gettext)msgcat Invocation.[K[52;1H                                Combine several PO files.[53;1H[4m* msgcmp[24m: (gettext)msgcmp Invocation.[K[54;1H                                Compare a PO file and template.[55;1H[4m* msgcomm[24m: (gettext)msgcomm Invocation.[K[56;1H                                Match two PO files.[57;1H[4m* msgconv[24m: (gettext)msgconv Invocation.[K[58;1H                                Convert PO file to encoding.[59;1H[4m* msgen[24m: (gettext)msgen Invocation.[K[60;1H                                Create an English PO file.[61;1H[7m-----Info: (dir)Top, 242 lines --Top---------------------------------------------------------------------------------[0m[1;1H[1;1H[62;1HUnknown command (a).[1;1H[1;1H[62;1H[K[1;1H[1;1H[1;1H[4m* zmore[24m: (gzip)Overview.                        Decompression output by pages.[K[3;1HKernel[K[4;1H[4m* grub-dev[24m: (grub-dev).         The GRand Unified Bootloader Dev[K[5;1H[4m* grub-install[24m: (grub)Invoking grub-install.[K[6;3H                              Install GRUB on your drive[7;1H[4m* grub-mkconfig[24m: (grub)Invoking grub-mkconfig.[K[8;3H                              Generate GRUB configuration[9;1H[4m* grub-mkpasswd-pbkdf2[24m: (grub)Invoking grub-mkpasswd-pbkdf2.[K[10;1H[4m* grub-mkrelpath[24m: (grub)Invoking grub-mkrelpath.[K[11;1H[4m* grub-mkrescue[24m: (grub)Invoking grub-mkrescue.[K[12;1H                                Make a GRUB rescue image[13;1H[4m* grub-mount[24m: (grub)Invoking grub-mount.[K[14;1H[K[14;1H                                Mount a file system using GRUB[15;1H[4m* grub-probe[24m: (grub)Invoking grub-probe.[K[16;1H                                Probe device information[17;1H[4m* grub-script-check[24m: (grub)Invoking grub-script-check.[K[18;1H[4m* GRUB[24m: (grub).                 The GRand Unified Bootloader[K[19;1H[K[20;1H[K[20;1HLibraries[21;1H[4m* RLuserman[24m: (rluserman).       The GNU readline library User's Manual.[K[22;1H[K[23;1H[K[23;1HNetwork applications[24;1H[4m* Wget[24m: (wget).                 Non-interactive network downloader.[K[25;1H[K[26;1H[K[26;1HText creation and manipulation[27;1H[4m* Diffutils[24m: (diffutils).       Comparing and merging files.[K[28;1H[4m* Word differences[24m: (wdiff).    GNU wdiff and diff related tools.[K[29;1H[4m* grep[24m: (grep).                 Print lines matching a pattern.[K[30;1H* sed: (sed).                   Stream EDitor.  [K[31;1H[K[32;1H[K[34;1H[K[35;1H[K[37;1H[K[38;1H[K[39;1H[K[40;1H[K[41;1H[K[42;1H[K[43;1H[K[44;1H[K[45;1H[K[46;1H[K[47;1H[K[48;1H[K[49;1H[K[50;1H[K[51;1H[K[52;1H[K[53;1H[K[54;1H[K[55;1H[K[56;1H[K[57;1H[K[58;1H[K[59;1H[K[60;1H[K[61;1H[7m-----Info: (dir)Top, 242 lines --Bot---------------------------------------------------------------------------------[0m[30;49H[30;49H[30;49H[62;1H[K[?1l>[?1049l[62;1H[K[?1l>[?1049l]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ date
+Fri Sep 30 13:57:07 GMT 2016
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ --help
+--help: command not found
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ --help
+--help: command not found
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ date --hrlp[K[K[Kelp
+Usage: date [OPTION]... [+FORMAT]
+  or:  date [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]
+Display the current time in the given FORMAT, or set the system date.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -d, --date=STRING          display time described by STRING, not 'now'
+  -f, --file=DATEFILE        like --date; once for each line of DATEFILE
+  -I[FMT], --iso-8601[=FMT]  output date/time in ISO 8601 format.
+                               FMT='date' for date only (the default),
+                               'hours', 'minutes', 'seconds', or 'ns'
+                               for date and time to the indicated precision.
+                               Example: 2006-08-14T02:34:56-0600
+  -R, --rfc-2822             output date and time in RFC 2822 format.
+                               Example: Mon, 14 Aug 2006 02:34:56 -0600
+      --rfc-3339=FMT         output date/time in RFC 3339 format.
+                               FMT='date', 'seconds', or 'ns'
+                               for date and time to the indicated precision.
+                               Example: 2006-08-14 02:34:56-06:00
+  -r, --reference=FILE       display the last modification time of FILE
+  -s, --set=STRING           set time described by STRING
+  -u, --utc, --universal     print or set Coordinated Universal Time (UTC)
+      --help     display this help and exit
+      --version  output version information and exit
+
+FORMAT controls the output.  Interpreted sequences are:
+
+  %%   a literal %
+  %a   locale's abbreviated weekday name (e.g., Sun)
+  %A   locale's full weekday name (e.g., Sunday)
+  %b   locale's abbreviated month name (e.g., Jan)
+  %B   locale's full month name (e.g., January)
+  %c   locale's date and time (e.g., Thu Mar  3 23:05:25 2005)
+  %C   century; like %Y, except omit last two digits (e.g., 20)
+  %d   day of month (e.g., 01)
+  %D   date; same as %m/%d/%y
+  %e   day of month, space padded; same as %_d
+  %F   full date; same as %Y-%m-%d
+  %g   last two digits of year of ISO week number (see %G)
+  %G   year of ISO week number (see %V); normally useful only with %V
+  %h   same as %b
+  %H   hour (00..23)
+  %I   hour (01..12)
+  %j   day of year (001..366)
+  %k   hour, space padded ( 0..23); same as %_H
+  %l   hour, space padded ( 1..12); same as %_I
+  %m   month (01..12)
+  %M   minute (00..59)
+  %n   a newline
+  %N   nanoseconds (000000000..999999999)
+  %p   locale's equivalent of either AM or PM; blank if not known
+  %P   like %p, but lower case
+  %r   locale's 12-hour clock time (e.g., 11:11:04 PM)
+  %R   24-hour hour and minute; same as %H:%M
+  %s   seconds since 1970-01-01 00:00:00 UTC
+  %S   second (00..60)
+  %t   a tab
+  %T   time; same as %H:%M:%S
+  %u   day of week (1..7); 1 is Monday
+  %U   week number of year, with Sunday as first day of week (00..53)
+  %V   ISO week number, with Monday as first day of week (01..53)
+  %w   day of week (0..6); 0 is Sunday
+  %W   week number of year, with Monday as first day of week (00..53)
+  %x   locale's date representation (e.g., 12/31/99)
+  %X   locale's time representation (e.g., 23:13:48)
+  %y   last two digits of year (00..99)
+  %Y   year
+  %z   +hhmm numeric time zone (e.g., -0400)
+  %:z  +hh:mm numeric time zone (e.g., -04:00)
+  %::z  +hh:mm:ss numeric time zone (e.g., -04:00:00)
+  %:::z  numeric time zone with : to necessary precision (e.g., -04, +05:30)
+  %Z   alphabetic time zone abbreviation (e.g., EDT)
+
+By default, date pads numeric fields with zeroes.
+The following optional flags may follow '%':
+
+  -  (hyphen) do not pad the field
+  _  (underscore) pad with spaces
+  0  (zero) pad with zeros
+  ^  use upper case if possible
+  #  use opposite case if possible
+
+After any flags comes an optional field width, as a decimal number;
+then an optional modifier, which is either
+E to use the locale's alternate representations if available, or
+O to use the locale's alternate numeric symbols if available.
+
+Examples:
+Convert seconds since the epoch (1970-01-01 UTC) to a date
+  $ date --date='@2147483647'
+
+Show the time on the west coast of the US (use tzselect(1) to find TZ)
+  $ TZ='America/Los_Angeles' date
+
+Show the local time for 9AM next Friday on the west coast of the US
+  $ date --date='TZ="America/Los_Angeles" 09:00 next Fri'
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+Full documentation at: <http://www.gnu.org/software/coreutils/date>
+or available locally via: info '(coreutils) date invocation'
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ ls /usr/share/doc
+[0m[01;34maccountsservice[0m                   [01;34mlibestr0[0m                       [01;34mlibvpx3[0m
+[01;34macl[0m                               [01;34mlibevent-2.0-5[0m                 [01;34mlibvte-2.91-0[0m
+[01;34macpid[0m                             [01;34mlibexif12[0m                      [01;34mlibvte-2.91-common[0m
+[01;34madduser[0m                           [01;34mlibexpat1[0m                      [01;34mlibwayland-client0[0m
+[01;34madwaita-icon-theme[0m                [01;34mlibexporter-tiny-perl[0m          [01;34mlibwayland-cursor0[0m
+[01;34mapparmor[0m                          [01;34mlibfakeroot[0m                    [01;34mlibwayland-egl1-mesa[0m
+[01;34mapport[0m                            [01;34mlibfcgi-perl[0m                   [01;34mlibwayland-server0[0m
+[01;34mapport-symptoms[0m                   [01;34mlibfdisk1[0m                      [01;34mlibwind0-heimdal[0m
+[01;34mapt[0m                               [01;34mlibfdt1[0m                        [01;34mlibwrap0[0m
+[01;34mapt-transport-https[0m               [01;34mlibffi6[0m                        [01;34mlibwww-perl[0m
+[01;34mapt-utils[0m                         [01;34mlibfile-basedir-perl[0m           [01;34mlibwww-robotrules-perl[0m
+[01;34mat[0m                                [01;34mlibfile-fcntllock-perl[0m         [01;34mlibx11-6[0m
+[01;34mat-spi2-core[0m                      [01;34mlibfile-listing-perl[0m           [01;34mlibx11-data[0m
+[01;34maugeas-lenses[0m                     [01;34mlibflac8[0m                       [01;34mlibx11-xcb1[0m
+[01;34mbase-files[0m                        [01;34mlibfont-afm-perl[0m               [01;34mlibx86-1[0m
+[01;34mbase-passwd[0m                       [01;34mlibfontconfig1[0m                 [01;34mlibxau6[0m
+[01;34mbash[0m                              [01;34mlibfreetype6[0m                   [01;34mlibxcb1[0m
+[01;34mbash-completion[0m                   [01;34mlibfribidi0[0m                    [01;34mlibxcb-dri2-0[0m
+[01;34mbcache-tools[0m                      [01;34mlibfuse2[0m                       [01;34mlibxcb-dri3-0[0m
+[01;34mbind9-host[0m                        [01;34mlibgbm1[0m                        [01;34mlibxcb-glx0[0m
+[01;34mbinutils[0m                          [01;36mlibgcc1[0m                        [01;34mlibxcb-present0[0m
+[01;34mbridge-utils[0m                      [01;36mlibgcc-5-dev[0m                   [01;34mlibxcb-render0[0m
+[01;34mbsdmainutils[0m                      [01;34mlibgconf-2-4[0m                   [01;34mlibxcb-shm0[0m
+[01;34mbsdutils[0m                          [01;34mlibgcrypt20[0m                    [01;34mlibxcb-sync1[0m
+[01;34mbtrfs-tools[0m                       [01;34mlibgd3[0m                         [01;34mlibxcb-xfixes0[0m
+[01;34mbuild-essential[0m                   [01;34mlibgdbm3[0m                       [01;34mlibxcomposite1[0m
+[01;34mbusybox-initramfs[0m                 [01;34mlibgdk-pixbuf2.0-0[0m             [01;34mlibxcursor1[0m
+[01;34mbusybox-static[0m                    [01;34mlibgdk-pixbuf2.0-common[0m        [01;34mlibxdamage1[0m
+[01;34mbyobu[0m                             [01;34mlibgeoip1[0m                      [01;34mlibxdmcp6[0m
+[01;34mbzip2[0m                             [01;34mlibgettextpo0[0m                  [01;34mlibxen-4.6[0m
+[01;34mca-certificates[0m                   [01;34mlibgettextpo-dev[0m               [01;34mlibxenstore3.0[0m
+[01;34mcgmanager[0m                         [01;34mlibgirepository-1.0-1[0m          [01;34mlibxext6[0m
+[01;34mcloud-guest-utils[0m                 [01;34mlibgl1-mesa-dri[0m                [01;34mlibxfixes3[0m
+[01;34mcloud-initramfs-copymods[0m          [01;34mlibgl1-mesa-glx[0m                [01;34mlibxft2[0m
+[01;34mcloud-initramfs-dyn-netconf[0m       [01;34mlibglapi-mesa[0m                  [01;34mlibxi6[0m
+[01;34mcolord[0m                            [01;34mlibglib2.0-0[0m                   [01;34mlibxinerama1[0m
+[01;34mcolord-data[0m                       [01;34mlibglib2.0-data[0m                [01;34mlibxkbcommon0[0m
+[01;34mcommand-not-found[0m                 [01;34mlibgmp10[0m                       [01;34mlibxml2[0m
+[01;34mcommand-not-found-data[0m            [01;34mlibgnutls30[0m                    [01;34mlibxml2-utils[0m
+[01;36mconsole-setup[0m                     [01;34mlibgnutls-openssl27[0m            [01;34mlibxmu6[0m
+[01;36mconsole-setup-linux[0m               [01;36mlibgomp1[0m                       [01;34mlibxmuu1[0m
+[01;34mcoreutils[0m                         [01;34mlibgpg-error0[0m                  [01;34mlibxpm4[0m
+[01;34mcowsay[0m                            [01;34mlibgphoto2-6[0m                   [01;34mlibxrandr2[0m
+[01;34mcowsay-off[0m                        [01;34mlibgphoto2-l10n[0m                [01;34mlibxrender1[0m
+[01;34mcpio[0m                              [01;34mlibgphoto2-port12[0m              [01;34mlibxshmfence1[0m
+[01;34mcpp[0m                               [01;34mlibgpm2[0m                        [01;34mlibxslt1.1[0m
+[01;36mcpp-5[0m                             [01;34mlibgraphite2-3[0m                 [01;34mlibxt6[0m
+[01;34mcpu-checker[0m                       [01;34mlibgsoap8[0m                      [01;34mlibxtables11[0m
+[01;34mcrda[0m                              [01;34mlibgssapi3-heimdal[0m             [01;34mlibxtst6[0m
+[01;34mcron[0m                              [01;34mlibgssapi-krb5-2[0m               [01;34mlibxxf86vm1[0m
+[01;34mcryptsetup[0m                        [01;34mlibgtk-3-0[0m                     [01;34mlibyajl2[0m
+[01;34mcryptsetup-bin[0m                    [01;34mlibgtk-3-bin[0m                   [01;34mlibyaml-libyaml-perl[0m
+[01;34mcurl[0m                              [01;34mlibgtk-3-common[0m                [01;34mlintian[0m
+[01;34mdash[0m                              [01;34mlibgtk-vnc-2.0-0[0m               [01;34mlinux-base[0m
+[01;34mdbus[0m                              [01;34mlibgudev-1.0-0[0m                 [01;34mlinux-firmware[0m
+[01;34mdbus-x11[0m                          [01;34mlibgusb2[0m                       [01;34mlinux-generic[0m
+[01;34mdconf-gsettings-backend[0m           [01;34mlibgvnc-1.0-0[0m                  [01;34mlinux-headers-4.4.0-31[0m
+[01;34mdconf-service[0m                     [01;34mlibharfbuzz0b[0m                  [01;34mlinux-headers-4.4.0-31-generic[0m
+[01;34mdctrl-tools[0m                       [01;34mlibhcrypto4-heimdal[0m            [01;34mlinux-headers-4.4.0-36[0m
+[01;34mdebconf[0m                           [01;34mlibheimbase1-heimdal[0m           [01;34mlinux-headers-4.4.0-36-generic[0m
+[01;36mdebconf-i18n[0m                      [01;34mlibheimntlm0-heimdal[0m           [01;34mlinux-headers-4.4.0-38[0m
+[01;34mdebianutils[0m                       [01;36mlibhogweed4[0m                    [01;34mlinux-headers-4.4.0-38-generic[0m
+[01;34mdebootstrap[0m                       [01;34mlibhtml-format-perl[0m            [01;34mlinux-headers-generic[0m
+[01;34mdebugedit[0m                         [01;34mlibhtml-form-perl[0m              [01;34mlinux-image-4.4.0-31-generic[0m
+[01;34mdevscripts[0m                        [01;34mlibhtml-parser-perl[0m            [01;34mlinux-image-4.4.0-36-generic[0m
+[01;34mdh-python[0m                         [01;34mlibhtml-tagset-perl[0m            [01;34mlinux-image-4.4.0-38-generic[0m
+[01;34mdiffstat[0m                          [01;34mlibhtml-tree-perl[0m              [01;34mlinux-image-extra-4.4.0-31-generic[0m
+[01;34mdiffutils[0m                         [01;34mlibhttp-cookies-perl[0m           [01;34mlinux-image-extra-4.4.0-36-generic[0m
+[01;34mdistro-info-data[0m                  [01;34mlibhttp-daemon-perl[0m            [01;34mlinux-image-extra-4.4.0-38-generic[0m
+[01;34mdkms[0m                              [01;34mlibhttp-date-perl[0m              [01;34mlinux-image-generic[0m
+[01;34mdmeventd[0m                          [01;34mlibhttp-message-perl[0m           [01;34mlinux-libc-dev[0m
+[01;34mdmidecode[0m                         [01;34mlibhttp-negotiate-perl[0m         [01;34mlocales[0m
+[01;34mdmsetup[0m                           [01;34mlibhx509-5-heimdal[0m             [01;34mlogin[0m
+[01;34mdnsmasq-base[0m                      [01;34mlibice6[0m                        [01;34mlogrotate[0m
+[01;34mdns-root-data[0m                     [01;34mlibicu55[0m                       [01;34mlsb-base[0m
+[01;34mdnsutils[0m                          [01;34mlibidn11[0m                       [01;34mlsb-release[0m
+[01;34mdosfstools[0m                        [01;34mlibieee1284-3[0m                  [01;34mlshw[0m
+[01;34mdpkg[0m                              [01;34mlibindicator3-7[0m                [01;34mlsof[0m
+[01;34mdpkg-dev[0m                          [01;34mlibio-html-perl[0m                [01;34mltrace[0m
+[01;34mdput[0m                              [01;34mlibio-pty-perl[0m                 [01;34mlvm2[0m
+[01;34me2fslibs[0m                          [01;34mlibio-socket-inet6-perl[0m        [01;34mlxc-common[0m
+[01;34me2fsprogs[0m                         [01;34mlibio-socket-ssl-perl[0m          [01;34mlxcfs[0m
+[01;34mebtables[0m                          [01;34mlibio-string-perl[0m              [01;34mlxd[0m
+[01;34mecryptfs-utils[0m                    [01;34mlibipc-run-perl[0m                [01;34mlxd-client[0m
+[01;34med[0m                                [01;34mlibipc-system-simple-perl[0m      [01;34mmake[0m
+[01;34meject[0m                             [01;34mlibisc160[0m                      [01;34mmakedev[0m
+[01;34methtool[0m                           [01;34mlibisccc140[0m                    [01;34mman-db[0m
+[01;34mfakeroot[0m                          [01;34mlibisccfg140[0m                   [01;34mmanpages[0m
+[01;34mfile[0m                              [01;34mlibisc-export160[0m               [01;36mmanpages-dev[0m
+[01;34mfindutils[0m                         [01;34mlibiscsi2[0m                      [01;34mmawk[0m
+[01;34mfontconfig[0m                        [01;34mlibisl15[0m                       [01;34mmdadm[0m
+[01;34mfontconfig-config[0m                 [01;36mlibitm1[0m                        [01;34mmime-support[0m
+[01;34mfonts-dejavu-core[0m                 [01;34mlibjbig0[0m                       [01;34mmlocate[0m
+[01;34mfonts-ubuntu-font-family-console[0m  [01;34mlibjpeg8[0m                       [01;34mmount[0m
+[01;34mfortune-mod[0m                       [01;34mlibjpeg-turbo8[0m                 [01;34mmsr-tools[0m
+[01;34mfortunes-min[0m                      [01;34mlibjson-c2[0m                     [01;34mmtr-tiny[0m
+[01;34mfriendly-recovery[0m                 [01;34mlibjson-glib-1.0-0[0m             [01;34mmultiarch-support[0m
+[01;34mftp[0m                               [01;34mlibjson-glib-1.0-common[0m        [01;34mmysql-common[0m
+[01;34mfuse[0m                              [01;34mlibk5crypto3[0m                   [01;34mnano[0m
+[01;36mg++[0m                               [01;34mlibkeyutils1[0m                   [01;34mncurses-base[0m
+[01;36mg++-5[0m                             [01;34mlibklibc[0m                       [01;34mncurses-bin[0m
+[01;34mgawk[0m                              [01;34mlibkmod2[0m                       [01;34mncurses-term[0m
+[01;36mgcc[0m                               [01;34mlibkrb5-26-heimdal[0m             [01;34mnetbase[0m
+[01;36mgcc-5[0m                             [01;34mlibkrb5-3[0m                      [01;34mnetcat-openbsd[0m
+[01;34mgcc-5-base[0m                        [01;34mlibkrb5support0[0m                [01;34mnet-tools[0m
+[01;34mgcc-6-base[0m                        [01;34mliblcms2-2[0m                     [01;34mntfs-3g[0m
+[01;34mgconf2[0m                            [01;34mlibldap-2.4-2[0m                  [01;34mopen-iscsi[0m
+[01;34mgconf2-common[0m                     [01;34mliblist-moreutils-perl[0m         [01;34mopenssh-client[0m
+[01;34mgconf-service[0m                     [01;34mlibllvm3.8[0m                     [01;36mopenssh-server[0m
+[01;34mgconf-service-backend[0m             [01;34mliblocale-gettext-perl[0m         [01;36mopenssh-sftp-server[0m
+[01;34mgeoip-database[0m                    [01;36mliblsan0[0m                       [01;34mopenssl[0m
+[01;34mgettext[0m                           [01;34mlibltdl7[0m                       [01;34mopen-vm-tools[0m
+[01;34mgettext-base[0m                      [01;34mliblua5.2-0[0m                    [01;34mos-prober[0m
+[01;34mgir1.2-appindicator3-0.1[0m          [01;34mliblvm2app2.2[0m                  [01;34moverlayroot[0m
+[01;34mgir1.2-atk-1.0[0m                    [01;34mliblvm2cmd2.02[0m                 [01;34mparted[0m
+[01;34mgir1.2-freedesktop[0m                [01;34mliblwp-mediatypes-perl[0m         [01;34mpasswd[0m
+[01;34mgir1.2-gdkpixbuf-2.0[0m              [01;34mliblwp-protocol-https-perl[0m     [01;34mpastebinit[0m
+[01;34mgir1.2-glib-2.0[0m                   [01;34mliblwres141[0m                    [01;34mpatch[0m
+[01;34mgir1.2-gtk-3.0[0m                    [01;34mliblxc1[0m                        [01;34mpatchutils[0m
+[01;34mgir1.2-gtk-vnc-2.0[0m                [01;34mliblz4-1[0m                       [01;34mpbis-open[0m
+[01;34mgir1.2-libosinfo-1.0[0m              [01;34mliblzma5[0m                       [01;34mpbis-open-gui[0m
+[01;34mgir1.2-libvirt-glib-1.0[0m           [01;34mliblzo2-2[0m                      [01;34mpbis-open-legacy[0m
+[01;34mgir1.2-pango-1.0[0m                  [01;34mlibmagic1[0m                      [01;34mpbis-open-upgrade[0m
+[01;34mgir1.2-spice-client-glib-2.0[0m      [01;34mlibmailtools-perl[0m              [01;34mpciutils[0m
+[01;34mgir1.2-spice-client-gtk-3.0[0m       [01;34mlibmirclient9[0m                  [01;34mperl[0m
+[01;34mgir1.2-vte-2.91[0m                   [01;34mlibmircommon5[0m                  [01;36mperl-base[0m
+[01;34mgit[0m                               [01;34mlibmirprotobuf3[0m                [01;34mperl-modules-5.22[0m
+[01;34mgit-man[0m                           [01;34mlibmng2[0m                        [01;34mplymouth[0m
+[01;34mglib-networking[0m                   [01;34mlibmnl0[0m                        [01;34mplymouth-theme-ubuntu-text[0m
+[01;34mglib-networking-common[0m            [01;34mlibmount1[0m                      [01;34mpm-utils[0m
+[01;34mglib-networking-services[0m          [01;34mlibmpc3[0m                        [01;34mpolicykit-1[0m
+[01;34mgnome-icon-theme[0m                  [01;34mlibmpdec2[0m                      [01;34mpopularity-contest[0m
+[01;34mgnupg[0m                             [01;34mlibmpfr4[0m                       [01;34mpowermgmt-base[0m
+[01;34mgpgv[0m                              [01;36mlibmpx0[0m                        [01;34mprocps[0m
+[01;34mgrep[0m                              [01;34mlibmspack0[0m                     [01;34mpsmisc[0m
+[01;34mgroff-base[0m                        [01;34mlibmysqlclient20[0m               [01;34mpython[0m
+[01;36mgrub2-common[0m                      [01;36mlibncurses5[0m                    [01;34mpython2.7[0m
+[01;34mgrub-common[0m                       [01;36mlibncursesw5[0m                   [01;34mpython2.7-minimal[0m
+[01;34mgrub-gfxpayload-lists[0m             [01;34mlibnetcf1[0m                      [01;34mpython3[0m
+[01;34mgrub-legacy-ec2[0m                   [01;34mlibnet-dns-perl[0m                [01;34mpython3.5[0m
+[01;36mgrub-pc[0m                           [01;34mlibnet-domain-tld-perl[0m         [01;34mpython3.5-minimal[0m
+[01;36mgrub-pc-bin[0m                       [01;34mlibnetfilter-conntrack3[0m        [01;34mpython3-apport[0m
+[01;34mgsettings-desktop-schemas[0m         [01;34mlibnet-http-perl[0m               [01;34mpython3-apt[0m
+[01;34mgzip[0m                              [01;34mlibnet-ip-perl[0m                 [01;34mpython3-chardet[0m
+[01;34mhardening-includes[0m                [01;34mlibnet-smtp-ssl-perl[0m           [01;34mpython3-commandnotfound[0m
+[01;34mhdparm[0m                            [01;34mlibnet-ssleay-perl[0m             [01;34mpython3-dbus[0m
+[01;34mhicolor-icon-theme[0m                [01;34mlibnettle6[0m                     [01;34mpython3-debian[0m
+[01;34mhostname[0m                          [01;34mlibnewt0.52[0m                    [01;34mpython3-distupgrade[0m
+[01;34mhumanity-icon-theme[0m               [01;34mlibnfnetlink0[0m                  [01;34mpython3-gdbm[0m
+[01;34mifenslave[0m                         [01;34mlibnih1[0m                        [01;34mpython3-gi[0m
+[01;34mifupdown[0m                          [01;36mlibnih-dbus1[0m                   [01;34mpython3-magic[0m
+[01;34mindicator-application[0m             [01;34mlibnl-3-200[0m                    [01;34mpython3-minimal[0m
+[01;34minfo[0m                              [01;34mlibnl-genl-3-200[0m               [01;34mpython3-newt[0m
+[01;34minit[0m                              [01;34mlibnl-route-3-200[0m              [01;34mpython3-pkg-resources[0m
+[01;34minitramfs-tools[0m                   [01;34mlibnspr4[0m                       [01;34mpython3-problem-report[0m
+[01;34minitramfs-tools-bin[0m               [01;34mlibnss3[0m                        [01;34mpython3-pycurl[0m
+[01;34minitramfs-tools-core[0m              [01;34mlibnss3-1d[0m                     [01;34mpython3-requests[0m
+[01;34minitscripts[0m                       [01;34mlibnss3-nssdb[0m                  [01;34mpython3-six[0m
+[01;34minit-system-helpers[0m               [01;34mlibnuma1[0m                       [01;34mpython3-software-properties[0m
+[01;34minsserv[0m                           [01;34mlibogg0[0m                        [01;34mpython3-systemd[0m
+[01;34minstallation-report[0m               [01;34mlibopus0[0m                       [01;34mpython3-update-manager[0m
+[01;34minstall-info[0m                      [01;34mlibosinfo-1.0-0[0m                [01;34mpython3-urllib3[0m
+[01;34mintltool-debian[0m                   [01;34mlibp11-kit0[0m                    [01;34mpython-apt-common[0m
+[01;34miproute2[0m                          [01;34mlibpam0g[0m                       [01;34mpython-cairo[0m
+[01;34miptables[0m                          [01;34mlibpam-modules[0m                 [01;34mpython-cffi-backend[0m
+[01;34miputils-ping[0m                      [01;34mlibpam-modules-bin[0m             [01;34mpython-chardet[0m
+[01;34miputils-tracepath[0m                 [01;34mlibpam-runtime[0m                 [01;34mpython-cheetah[0m
+[01;34mipxe-qemu[0m                         [01;34mlibpam-systemd[0m                 [01;34mpython-cryptography[0m
+[01;34mirqbalance[0m                        [01;34mlibpango-1.0-0[0m                 [01;34mpython-dbus[0m
+[01;34misc-dhcp-client[0m                   [01;34mlibpangocairo-1.0-0[0m            [01;34mpython-enum34[0m
+[01;34misc-dhcp-common[0m                   [01;34mlibpangoft2-1.0-0[0m              [01;34mpython-gi[0m
+[01;34miso-codes[0m                         [01;34mlibpangoxft-1.0-0[0m              [01;34mpython-gi-cairo[0m
+[01;34miw[0m                                [01;34mlibparse-debianchangelog-perl[0m  [01;34mpython-idna[0m
+[01;34mkbd[0m                               [01;34mlibparted2[0m                     [01;34mpython-ipaddr[0m
+[01;34mkeyboard-configuration[0m            [01;34mlibpcap0.8[0m                     [01;34mpython-ipaddress[0m
+[01;34mkeyutils[0m                          [01;34mlibpci3[0m                        [01;34mpython-libvirt[0m
+[01;36mklibc-utils[0m                       [01;34mlibpciaccess0[0m                  [01;34mpython-libxml2[0m
+[01;36mkmod[0m                              [01;34mlibpcre3[0m                       [01;34mpython-lzma[0m
+[01;34mkpartx[0m                            [01;34mlibperl5.22[0m                    [01;34mpython-minimal[0m
+[01;34mkrb5-locales[0m                      [01;34mlibperlio-gzip-perl[0m            [01;34mpython-ndg-httpsclient[0m
+[01;34mlanguage-pack-en[0m                  [01;34mlibpipeline1[0m                   [01;34mpython-openssl[0m
+[01;34mlanguage-pack-en-base[0m             [01;34mlibpixman-1-0[0m                  [01;34mpython-pkg-resources[0m
+[01;34mlanguage-selector-common[0m          [01;34mlibplymouth4[0m                   [01;34mpython-pyasn1[0m
+[01;34mlaptop-detect[0m                     [01;34mlibpng12-0[0m                     [01;34mpython-pycurl[0m
+[01;34mless[0m                              [01;34mlibpolkit-agent-1-0[0m            [01;34mpython-requests[0m
+[01;34mlibaccountsservice0[0m               [01;34mlibpolkit-backend-1-0[0m          [01;34mpython-rpm[0m
+[01;34mlibacl1[0m                           [01;34mlibpolkit-gobject-1-0[0m          [01;34mpython-six[0m
+[01;34mlibaio1[0m                           [01;34mlibpopt0[0m                       [01;34mpython-sqlite[0m
+[01;34mlibalgorithm-diff-perl[0m            [01;34mlibprocps4[0m                     [01;34mpython-sqlitecachec[0m
+[01;34mlibalgorithm-diff-xs-perl[0m         [01;34mlibprotobuf-lite9v5[0m            [01;34mpython-urlgrabber[0m
+[01;34mlibalgorithm-merge-perl[0m           [01;34mlibproxy1v5[0m                    [01;34mpython-urllib3[0m
+[01;34mlibapparmor1[0m                      [01;34mlibpulse0[0m                      [01;34mqdbus[0m
+[01;34mlibapparmor-perl[0m                  [01;34mlibpulse-mainloop-glib0[0m        [01;34mqemu-block-extra[0m
+[01;34mlibappindicator3-1[0m                [01;36mlibpython2.7[0m                   [01;34mqemu-system-common[0m
+[01;34mlibapt-inst2.0[0m                    [01;34mlibpython2.7-minimal[0m           [01;34mqemu-system-x86[0m
+[01;34mlibapt-pkg5.0[0m                     [01;36mlibpython2.7-stdlib[0m            [01;34mqemu-utils[0m
+[01;34mlibapt-pkg-perl[0m                   [01;36mlibpython3.5[0m                   [01;34mqt-at-spi[0m
+[01;34mlibarchive13[0m                      [01;34mlibpython3.5-minimal[0m           [01;34mqtchooser[0m
+[01;34mlibarchive-zip-perl[0m               [01;36mlibpython3.5-stdlib[0m            [01;34mqtcore4-l10n[0m
+[01;36mlibasan2[0m                          [01;34mlibpython3-stdlib[0m              [01;34mreadline-common[0m
+[01;34mlibasn1-8-heimdal[0m                 [01;34mlibpython-stdlib[0m               [01;34mrename[0m
+[01;34mlibasound2[0m                        [01;34mlibqt4-dbus[0m                    [01;34mresolvconf[0m
+[01;34mlibasound2-data[0m                   [01;34mlibqt4-declarative[0m             [01;34mrpm[0m
+[01;34mlibasprintf0v5[0m                    [01;34mlibqt4-network[0m                 [01;34mrpm2cpio[0m
+[01;34mlibasprintf-dev[0m                   [01;34mlibqt4-opengl[0m                  [01;34mrpm-common[0m
+[01;34mlibasyncns0[0m                       [01;34mlibqt4-script[0m                  [01;34mrsync[0m
+[01;34mlibatk1.0-0[0m                       [01;34mlibqt4-sql[0m                     [01;34mrsyslog[0m
+[01;34mlibatk1.0-data[0m                    [01;34mlibqt4-sql-mysql[0m               [01;34mrun-one[0m
+[01;34mlibatk-bridge2.0-0[0m                [01;34mlibqt4-xml[0m                     [01;34mscreen[0m
+[01;34mlibatm1[0m                           [01;34mlibqt4-xmlpatterns[0m             [01;34mseabios[0m
+[01;36mlibatomic1[0m                        [01;34mlibqtcore4[0m                     [01;34msed[0m
+[01;34mlibatspi2.0-0[0m                     [01;34mlibqtdbus4[0m                     [01;34msensible-utils[0m
+[01;34mlibattr1[0m                          [01;34mlibqtgui4[0m                      [01;34msgml-base[0m
+[01;34mlibaudio2[0m                         [01;36mlibquadmath0[0m                   [01;34mshared-mime-info[0m
+[01;34mlibaudit1[0m                         [01;34mlibrados2[0m                      [01;34msharutils[0m
+[01;34mlibaudit-common[0m                   [01;34mlibrbd1[0m                        [01;34msnapd[0m
+[01;34mlibaugeas0[0m                        [01;34mlibreadline5[0m                   [01;34msoftware-properties-common[0m
+[01;34mlibauthen-sasl-perl[0m               [01;34mlibreadline6[0m                   [01;34msosreport[0m
+[01;34mlibavahi-client3[0m                  [01;34mlibrecode0[0m                     [01;34mspice-client-glib-usb-acl-helper[0m
+[01;34mlibavahi-common3[0m                  [01;34mlibrest-0.7-0[0m                  [01;34msquashfs-tools[0m
+[01;34mlibavahi-common-data[0m              [01;34mlibroken18-heimdal[0m             [01;34mssh-import-id[0m
+[01;34mlibbind9-140[0m                      [01;34mlibrpm3[0m                        [01;34mssl-cert[0m
+[01;34mlibblkid1[0m                         [01;34mlibrpmbuild3[0m                   [01;34mstrace[0m
+[01;34mlibbluetooth3[0m                     [01;34mlibrpmio3[0m                      [01;34msudo[0m
+[01;34mlibboost-filesystem1.58.0[0m         [01;34mlibrpmsign3[0m                    [01;34msystemd[0m
+[01;34mlibboost-iostreams1.58.0[0m          [01;34mlibrsvg2-2[0m                     [01;34msystemd-sysv[0m
+[01;34mlibboost-random1.58.0[0m             [01;34mlibrsvg2-common[0m                [01;34msysvinit-utils[0m
+[01;34mlibboost-system1.58.0[0m             [01;34mlibrtmp1[0m                       [01;34msysv-rc[0m
+[01;34mlibboost-thread1.58.0[0m             [01;34mlibsane[0m                        [01;34mt1utils[0m
+[01;34mlibbrlapi0.6[0m                      [01;34mlibsane-common[0m                 [01;34mtar[0m
+[01;34mlibbsd0[0m                           [01;34mlibsasl2-2[0m                     [01;34mtasksel[0m
+[01;34mlibbz2-1.0[0m                        [01;34mlibsasl2-modules[0m               [01;36mtasksel-data[0m
+[01;34mlibc6[0m                             [01;34mlibsasl2-modules-db[0m            [01;36mtcpd[0m
+[01;34mlibc6-dev[0m                         [01;34mlibsdl1.2debian[0m                [01;34mtcpdump[0m
+[01;34mlibcaca0[0m                          [01;34mlibseccomp2[0m                    [01;34mtelnet[0m
+[01;34mlibcacard0[0m                        [01;34mlibselinux1[0m                    [01;34mtime[0m
+[01;34mlibcairo2[0m                         [01;34mlibsemanage1[0m                   [01;34mtmux[0m
+[01;34mlibcairo-gobject2[0m                 [01;34mlibsemanage-common[0m             [01;34mtzdata[0m
+[01;34mlibcap2[0m                           [01;34mlibsepol1[0m                      [01;34mubuntu-cloudimage-keyring[0m
+[01;34mlibcap2-bin[0m                       [01;34mlibsigsegv2[0m                    [01;34mubuntu-core-launcher[0m
+[01;34mlibcap-ng0[0m                        [01;34mlibslang2[0m                      [01;34mubuntu-keyring[0m
+[01;34mlibc-bin[0m                          [01;34mlibsm6[0m                         [01;34mubuntu-minimal[0m
+[01;36mlibcc1-0[0m                          [01;34mlibsmartcols1[0m                  [01;34mubuntu-mono[0m
+[01;34mlibc-dev-bin[0m                      [01;34mlibsndfile1[0m                    [01;34mubuntu-release-upgrader-core[0m
+[01;34mlibcgi-fast-perl[0m                  [01;34mlibsocket6-perl[0m                [01;34mubuntu-server[0m
+[01;34mlibcgi-pm-perl[0m                    [01;34mlibsoup2.4-1[0m                   [01;34mubuntu-standard[0m
+[01;34mlibcgmanager0[0m                     [01;34mlibsoup-gnome2.4-1[0m             [01;34mucf[0m
+[01;36mlibcilkrts5[0m                       [01;34mlibspice-client-glib-2.0-8[0m     [01;34mudev[0m
+[01;34mlibclass-accessor-perl[0m            [01;34mlibspice-client-gtk-3.0-4[0m      [01;34mufw[0m
+[01;34mlibclone-perl[0m                     [01;34mlibspice-server1[0m               [01;34muidmap[0m
+[01;34mlibcolord2[0m                        [01;34mlibsqlite0[0m                     [01;34munattended-upgrades[0m
+[01;34mlibcolorhug2[0m                      [01;34mlibsqlite3-0[0m                   [01;34munzip[0m
+[01;34mlibcomerr2[0m                        [01;34mlibss2[0m                         [01;34mupdate-manager-core[0m
+[01;34mlibcroco3[0m                         [01;34mlibssl1.0.0[0m                    [01;34mupdate-notifier-common[0m
+[01;34mlibcryptsetup4[0m                    [01;36mlibstdc++-5-dev[0m                [01;34mureadahead[0m
+[01;34mlibcups2[0m                          [01;36mlibstdc++6[0m                     [01;34musbutils[0m
+[01;34mlibcurl3-gnutls[0m                   [01;34mlibsub-name-perl[0m               [01;34mutil-linux[0m
+[01;34mlibdata-alias-perl[0m                [01;34mlibsystemd0[0m                    [01;34muuid-runtime[0m
+[01;34mlibdatrie1[0m                        [01;34mlibtasn1-6[0m                     [01;34mvbetool[0m
+[01;34mlibdb5.3[0m                          [01;34mlibtext-charwidth-perl[0m         [01;36mvim[0m
+[01;34mlibdbus-1-3[0m                       [01;34mlibtext-iconv-perl[0m             [01;34mvim-common[0m
+[01;34mlibdbus-glib-1-2[0m                  [01;34mlibtext-levenshtein-perl[0m       [01;34mvim-runtime[0m
+[01;34mlibdbusmenu-glib4[0m                 [01;34mlibtext-wrapi18n-perl[0m          [01;36mvim-tiny[0m
+[01;34mlibdbusmenu-gtk3-4[0m                [01;34mlibthai0[0m                       [01;34mvirtinst[0m
+[01;34mlibdconf1[0m                         [01;34mlibthai-data[0m                   [01;34mvirt-manager[0m
+[01;34mlibdebconfclient0[0m                 [01;34mlibtiff5[0m                       [01;34mvirtualbox[0m
+[01;34mlibdevmapper1.02.1[0m                [01;34mlibtimedate-perl[0m               [01;34mvirtualbox-dkms[0m
+[01;34mlibdevmapper-event1.02.1[0m          [01;34mlibtinfo5[0m                      [01;34mvirtualbox-qt[0m
+[01;34mlibdigest-hmac-perl[0m               [01;36mlibtsan0[0m                       [01;34mvirt-viewer[0m
+[01;34mlibdistro-info-perl[0m               [01;34mlibtxc-dxtn-s2tc0[0m              [01;34mvlan[0m
+[01;34mlibdns162[0m                         [01;36mlibubsan0[0m                      [01;34mvsftpd[0m
+[01;34mlibdns-export162[0m                  [01;34mlibudev1[0m                       [01;34mwdiff[0m
+[01;34mlibdpkg-perl[0m                      [01;34mlibunistring0[0m                  [01;34mwget[0m
+[01;34mlibdrm2[0m                           [01;34mliburi-perl[0m                    [01;34mwhiptail[0m
+[01;34mlibdrm-amdgpu1[0m                    [01;34mlibusb-0.1-4[0m                   [01;34mwireless-regdb[0m
+[01;34mlibdrm-intel1[0m                     [01;34mlibusb-1.0-0[0m                   [01;34mx11-common[0m
+[01;34mlibdrm-nouveau2[0m                   [01;34mlibusbredirhost1[0m               [01;34mxauth[0m
+[01;34mlibdrm-radeon1[0m                    [01;34mlibusbredirparser1[0m             [01;34mxdg-user-dirs[0m
+[01;34mlibdumbnet1[0m                       [01;34mlibustr-1.0-1[0m                  [01;34mxfsprogs[0m
+[01;34mlibecryptfs1[0m                      [01;34mlibutempter0[0m                   [01;34mxkb-data[0m
+[01;34mlibedit2[0m                          [01;34mlibuuid1[0m                       [01;34mxml-core[0m
+[01;34mlibegl1-mesa[0m                      [01;34mlibvirt0[0m                       [01;34mxz-utils[0m
+[01;34mlibelf1[0m                           [01;34mlibvirt-bin[0m                    [01;34myum[0m
+[01;34mlibemail-valid-perl[0m               [01;34mlibvirt-glib-1.0-0[0m             [01;34mzerofree[0m
+[01;34mlibencode-locale-perl[0m             [01;34mlibvncserver1[0m                  [01;34mzlib1g[0m
+[01;34mlibepoxy0[0m                         [01;34mlibvorbis0a[0m
+[01;34mliberror-perl[0m                     [01;34mlibvorbisenc2[0m
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ locatte[K[K[Ka[Kte crontab
+/etc/crontab
+/usr/bin/crontab
+/usr/share/bash-completion/completions/crontab
+/usr/share/doc/cron/examples/crontab2english.pl
+/usr/share/man/man1/crontab.1.gz
+/usr/share/man/man5/crontab.5.gz
+/usr/share/vim/vim74/syntax/crontab.vim
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ locate -b "\crontab"
+/etc/crontab
+/usr/bin/crontab
+/usr/share/bash-completion/completions/crontab
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ whereis passwd
+passwd: /usr/bin/passwd /etc/passwd /opt/likewise/bin/passwd /opt/pbis/bin/passwd /usr/share/man/man1/passwd.1ssl.gz /usr/share/man/man1/passwd.1.gz /usr/share/man/man5/passwd.5.gz
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ exit
+exit
+
+Script done on Fri 30 Sep 2016 02:01:37 PM GMT

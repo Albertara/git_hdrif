@@ -1,0 +1,45 @@
+header,footer,nav,section,article,aside{
+	border:2px dashed;
+
+}
+
+nav{
+	border:2px dashed red;
+}
+
+article,aside{
+	background:silver;
+}
+
+.dalkur1-2{
+	width:50%;
+}
+
+
+.flotv{
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}

@@ -1,0 +1,133 @@
+@import 'https://fonts.googleapis.com/css?family=Crimson+Text|Exo+2|Josefin+Sans|Libre+Baskerville|Lobster|Ruslan+Display|Shrikhand|Yatra+One';
+hr{
+	width:100%;
+}
+h4{
+	margin-bottom:-1%;
+	text-align:right;
+}
+html{
+	border:1px solid black;
+	margin-left:20px;
+	margin-right:20px;
+}
+section{
+	width: 100%;
+}
+.dasborder{
+	border:1px dashed magenta;
+	width:33.33%;
+	display:inline-block;
+	padding:10px;
+}
+.txt{
+	background:#42f49e;
+	
+}
+.flotaril{
+	float:left;
+	margin:auto;
+}
+.flotarir{
+	float:right;
+	margin:auto;
+}
+.arial{
+	font-family:Arial;
+}
+.mono{
+	font-family:Courier;
+}
+.txtsize{
+	font-size:1em;
+}
+.padtop{
+	padding-top:10px;
+}
+.border50{
+	border:1px dashed magenta;
+	width:50%;
+	padding:10px;
+}
+.dinline{
+	display:inline-block;
+}
+.georgia{
+	font-family:georgia;
+}
+.trebuchet{
+	font-family:"trebuchet ms";
+}
+.verdana{
+	font-family:verdana;
+}
+.palatino{
+	font-family:"palatino linotype";
+}
+.exo1{
+	font-family: 'Exo 2', sans-serif;
+}
+.josefin1{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.ruslan2{
+	font-family: 'Ruslan Display', cursive;
+}
+.yatra2{
+	font-family: 'Yatra One', cursive;
+}
+.shrikhand3{
+	font-family: 'Shrikhand', cursive;
+}
+.lobster3{
+	font-family: 'Lobster', cursive;
+}
+.libre4{
+	font-family: 'Libre Baskerville', serif;
+}
+.crimson4{
+	font-family: 'Crimson Text', serif;
+}
+.wizard{
+	background :#42f49e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+

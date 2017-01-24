@@ -1,0 +1,1 @@
+x=msgbox("Your computer is infected, unable to clean", 16+2, "Antivirus")

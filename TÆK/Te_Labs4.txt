@@ -1,0 +1,247 @@
+Script started on Fri 30 Sep 2016 01:31:44 PM GMT
+]0;2T\1406003180@tskel: ~/Labs_Te[01;32m2T\1406003180@tskel[00m:[01;34m~/Labs_Te[00m$ echo Hello; echo Linux; echo Studentecho Hello; echo Linux; echo Student[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+Hello
+Linux
+Student
+]0;2T\1406003180@tskel: ~/Labs_Te[01;32m2T\1406003180@tskel[00m:[01;34m~/Labs_Te[00m$ false; echo Not; echo Conditional
+Not
+Conditional
+]0;2T\1406003180@tskel: ~/Labs_Te[01;32m2T\1406003180@tskel[00m:[01;34m~/Labs_Te[00m$ echo Start && echo Going && echo Gone
+Start
+Going
+Gone
+]0;2T\1406003180@tskel: ~/Labs_Te[01;32m2T\1406003180@tskel[00m:[01;34m~/Labs_Te[00m$ echo Success && false && echo Bye
+Success
+]0;2T\1406003180@tskel: ~/Labs_Te[01;32m2T\1406003180@tskel[00m:[01;34m~/Labs_Te[00m$ 
+]0;2T\1406003180@tskel: ~/Labs_Te[01;32m2T\1406003180@tskel[00m:[01;34m~/Labs_Te[00m$ false || echo Fail Or
+Fail Or
+]0;2T\1406003180@tskel: ~/Labs_Te[01;32m2T\1406003180@tskel[00m:[01;34m~/Labs_Te[00m$ true || echo Nothing to see here
+]0;2T\1406003180@tskel: ~/Labs_Te[01;32m2T\1406003180@tskel[00m:[01;34m~/Labs_Te[00m$ date
+Fri Sep 30 13:40:16 GMT 2016
+]0;2T\1406003180@tskel: ~/Labs_Te[01;32m2T\1406003180@tskel[00m:[01;34m~/Labs_Te[00m$ clear
+[3;J[H[2J]0;2T\1406003180@tskel: ~/Labs_Te[01;32m2T\1406003180@tskel[00m:[01;34m~/Labs_Te[00m$ echo Hi
+Hi
+]0;2T\1406003180@tskel: ~/Labs_Te[01;32m2T\1406003180@tskel[00m:[01;34m~/Labs_Te[00m$ history
+    1  cgfhn
+    2  b bn 
+    3  bnm
+    4  j
+    5  m
+    6  bjm
+    7  hj
+    8  m
+    9  jbhm
+   10  jh
+   11  m
+   12  clear
+   13  bum
+   14  clear
+   15  bum
+   16  bum'
+   17  bum
+   18  bum
+   19  bum
+   20  bum
+   21  buimbio,bb
+   22  b
+   23  b
+   24  b
+   25  b
+   26  b
+   27  b
+   28  b
+   29  b
+   30  b
+   31  b
+   32  b
+   33  b
+   34  b
+   35  b
+   36  b
+   37  b
+   38  b
+   39  b
+   40  b
+   41  b
+   42  mkdir albert
+   43  exit
+   44  ls
+   45  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   46  mkdir te
+   47  mktemp
+   48  mkfs.ext4
+   49  mkdi
+   50  mkdir
+   51  mkdir te
+   52  mkdir kaffi
+   53  dir
+   54  ls
+   55  cd L
+   56  cd te
+   57  rm kaffi
+   58  cd te
+   59  back
+   60  cd
+   61  rm kafi
+   62  rm kaffi
+   63  mv kaffi voff
+   64  ls
+   65  cd ..
+   66  rm-r/te
+   67  rm -r /voff
+   68  rm -r voff
+   69  cd 1406003180
+   70  l
+   71  ls
+   72  rm -r /voff
+   73  rm -r voff
+   74  ls
+   75  mkdir delete
+   76  ls
+   77  labs_TH2/lab4_Albert.txt
+   78  te/lab4_Albert.txt
+   79  ls
+   80  cd te
+   81  ls
+   82  cd
+   83  exiit
+   84  script lab4_Albert.txt
+   85  cd /
+   86  cd home/local/2T/sem
+   87  1406003180
+   88  cd .
+   89  cd /
+   90  cd
+   91  back
+   92  home
+   93  cd 1406003180
+   94  ls
+   95  rm -r albert
+   96  ls
+   97  rm -r delete te
+   98  ls
+   99  rm -r lab4_Albert.txt
+  100  mkdir Desktop
+  101  ls
+  102  mkdir Documents Downloads
+  103  ls
+  104  rm -r Desktop Documents Downloads
+  105  ls
+  106  mkdir labs_te
+  107  cd labs_te
+  108  script lab4_albert.txt
+  109  cd
+  110  mkdir Desktop Documents Downloads Music Pictures Public Templates Videos
+  111  ls
+  112  l
+  113  ls
+  114  mv labs_te Labs_Te
+  115  ls
+  116  cd
+  117  whoami
+  118  uname
+  119  uname -n
+  120  uname --nodename
+  121  pwd
+  122  echo hello world
+  123  echo $PATH
+  124  wich date
+  125  which date
+  126  echo *
+  127  echo D*
+  128  echo P*
+  129  scho V*
+  130  echo V*
+  131  echo s*
+  132  echo D*n*s
+  133  echo ??????
+  134  echo ?????????
+  135  echo D??????
+  136  echo D???????
+  137  echo D????????
+  138  echo ?????*s
+  139  echo [DP]*
+  140  echo [!DP]*
+  141  echo [PT]*
+  142  echo [D-P]*
+  143  echo [!D-P]*
+  144  echo Today is `date`
+  145  echo Hello there, this is the date today `date`
+  146  echo Today is $(date)
+  147  echo This is the command '`date`'
+  148  echo This is the command \`date`\
+  149  echo This is the command "`date`"
+  150  cd 
+  151  echo This is the command "`date`"
+  152  echo "D*"
+  153  echo Hello; echo Linus; echo teparty
+  154  flase; echo Not; echo Conditional
+  155  false; echo Not; echo Conditional
+  156  echo Start && echo Going && echo Gone
+  157  echo Success && false && echo Bye
+  158  exit
+  159  cd Labs_Te
+  160  script lab4_albert.txt
+  161  echo Hello; echo Linux; echo Student
+  162  false; echo Not; echo Conditional
+  163  echo Start && echo Going && echo Gone
+  164  echo Success && false && echo Bye
+  165  false || echo Fail Or
+  166  true || echo Nothing to see here
+  167  date
+  168  clear
+  169  echo Hi
+  170  history
+]0;2T\1406003180@tskel: ~/Labs_Te[01;32m2T\1406003180@tskel[00m:[01;34m~/Labs_Te[00m$ history 5
+  167  date
+  168  clear
+  169  echo Hi
+  170  history
+  171  history 5
+]0;2T\1406003180@tskel: ~/Labs_Te[01;32m2T\1406003180@tskel[00m:[01;34m~/Labs_Te[00m$ history 30
+  143  echo [!D-P]*
+  144  echo Today is `date`
+  145  echo Hello there, this is the date today `date`
+  146  echo Today is $(date)
+  147  echo This is the command '`date`'
+  148  echo This is the command \`date`\
+  149  echo This is the command "`date`"
+  150  cd 
+  151  echo This is the command "`date`"
+  152  echo "D*"
+  153  echo Hello; echo Linus; echo teparty
+  154  flase; echo Not; echo Conditional
+  155  false; echo Not; echo Conditional
+  156  echo Start && echo Going && echo Gone
+  157  echo Success && false && echo Bye
+  158  exit
+  159  cd Labs_Te
+  160  script lab4_albert.txt
+  161  echo Hello; echo Linux; echo Student
+  162  false; echo Not; echo Conditional
+  163  echo Start && echo Going && echo Gone
+  164  echo Success && false && echo Bye
+  165  false || echo Fail Or
+  166  true || echo Nothing to see here
+  167  date
+  168  clear
+  169  echo Hi
+  170  history
+  171  history 5
+  172  history 30
+]0;2T\1406003180@tskel: ~/Labs_Te[01;32m2T\1406003180@tskel[00m:[01;34m~/Labs_Te[00m$ !171
+history 5
+  169  echo Hi
+  170  history
+  171  history 5
+  172  history 30
+  173  history 5
+]0;2T\1406003180@tskel: ~/Labs_Te[01;32m2T\1406003180@tskel[00m:[01;34m~/Labs_Te[00m$ !130
+echo V*
+V*
+]0;2T\1406003180@tskel: ~/Labs_Te[01;32m2T\1406003180@tskel[00m:[01;34m~/Labs_Te[00m$ echo V*history 530[1P5[Kecho Hi[2Pclear[1Pdatetrue || echo Nothing to see here[11Pfalse || echo Fail Orecho Success && false && echo Byetart && echo Going && echo Gone[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pfalse; echo Not; echo Conditional[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho Hello; echo Linux; echo Student[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pscript lab4_albert.txt[12Pcd Labs_Te[6Pexitcho Success && false && echo Byetart && echo Going && echo Gone[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pfalse; echo Not; echo Conditionalla[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho Hello; echo Linus; echo teparty"D*"[KThis is the command "`date`"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd [Kecho This is the command "`date`"\`date`\'`date`'[12Poday is $(date)Hello there, this is the date today `date`[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27PToday is[C[C[C[C[C[C[C[8P[!D-P]*[1PD-P]*[1PPT]*!DP]*[1PDP]*?????*sD????????
+D????????
+]0;2T\1406003180@tskel: ~/Labs_Te[01;32m2T\1406003180@tskel[00m:[01;34m~/Labs_Te[00m$ exit
+exit
+
+Script done on Fri 30 Sep 2016 01:41:56 PM GMT

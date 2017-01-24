@@ -1,0 +1,21 @@
+.rammi{
+	display:flex;
+}
+
+
+.kjalkur{
+	flex:1 1 0;
+	border:1px solid turquoise;
+}
+
+
+.kjalkur2{
+	flex:2 2 2px;
+	border:1px solid magenta;
+}
+
+
+.kjalkur3{
+	flex:3 3 4px;
+	border:1px solid indianred;
+}

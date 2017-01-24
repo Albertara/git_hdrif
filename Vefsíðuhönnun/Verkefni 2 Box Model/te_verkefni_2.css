@@ -1,0 +1,88 @@
+body{
+	margin:40px;
+}
+
+
+
+
+.box1{
+	border:3px solid #3FBA60;
+
+}
+
+
+.box2{
+	color:red;
+	border:3px solid green;
+
+}
+
+.box3{
+	border:3px dashed blue;
+	color:blue;
+	padding-top:15px;
+	padding-left:20px;
+	padding-bottom:15px;
+}
+
+.redbox{
+	border:4px solid red;
+	padding-top:40px;
+	padding-left:40px;
+	padding-bottom:40px;
+	padding-right:40px;
+}
+
+.blue{
+	color:blue;
+
+}
+
+.inline ul li{
+	display:inline-block;
+}
+
+.inline ul li a{
+	padding:20px;
+}
+
+.smolred{
+	border:2px solid red;
+	padding-top:40px;
+	padding-left:40px;
+	padding-bottom:40px;
+	padding-right:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+

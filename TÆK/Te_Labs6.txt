@@ -1,0 +1,381 @@
+Script started on Fri 07 Oct 2016 02:14:21 PM GMT
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ pwd
+/home/local/2T/1406003180/Te_Labs
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ echo $HOME
+/home/local/2T/1406003180
+]0;2T\1406003180@tskel: ~/Te_Labs[01;32m2T\1406003180@tskel[00m:[01;34m~/Te_Labs[00m$ cd /
+]0;2T\1406003180@tskel: /[01;32m2T\1406003180@tskel[00m:[01;34m/[00m$ pwd
+/
+]0;2T\1406003180@tskel: /[01;32m2T\1406003180@tskel[00m:[01;34m/[00m$ cd
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ pwd
+/home/local/2T/1406003180
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cd /home
+]0;2T\1406003180@tskel: /home[01;32m2T\1406003180@tskel[00m:[01;34m/home[00m$ pwd
+/home
+]0;2T\1406003180@tskel: /home[01;32m2T\1406003180@tskel[00m:[01;34m/home[00m$ cd 
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ 
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cd ~
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cd ~
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cd ~
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cd ~
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cd ~
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cd ~
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cd ~
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ pwd
+/home/local/2T/1406003180
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ echo  ~ ~sysadmin ~root ~mail ~nobody
+/home/local/2T/1406003180 ~sysadmin /root /var/mail /nonexistent
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cd ~root
+bash: cd: /root: Permission denied
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cd /usr/bincd /usr/bin[K[K[K[K[K[K[K[K[K[K[K
+]0;2T\1406003180@tskel: /usr/bin[01;32m2T\1406003180@tskel[00m:[01;34m/usr/bin[00m$ pwd
+/usr/bin
+]0;2T\1406003180@tskel: /usr/bin[01;32m2T\1406003180@tskel[00m:[01;34m/usr/bin[00m$ cd /usr
+]0;2T\1406003180@tskel: /usr[01;32m2T\1406003180@tskel[00m:[01;34m/usr[00m$ pwd
+/usr
+]0;2T\1406003180@tskel: /usr[01;32m2T\1406003180@tskel[00m:[01;34m/usr[00m$ 
+]0;2T\1406003180@tskel: /usr[01;32m2T\1406003180@tskel[00m:[01;34m/usr[00m$ 
+]0;2T\1406003180@tskel: /usr[01;32m2T\1406003180@tskel[00m:[01;34m/usr[00m$ 
+]0;2T\1406003180@tskel: /usr[01;32m2T\1406003180@tskel[00m:[01;34m/usr[00m$ 
+]0;2T\1406003180@tskel: /usr[01;32m2T\1406003180@tskel[00m:[01;34m/usr[00m$ 
+]0;2T\1406003180@tskel: /usr[01;32m2T\1406003180@tskel[00m:[01;34m/usr[00m$ 
+]0;2T\1406003180@tskel: /usr[01;32m2T\1406003180@tskel[00m:[01;34m/usr[00m$ 
+]0;2T\1406003180@tskel: /usr[01;32m2T\1406003180@tskel[00m:[01;34m/usr[00m$ 
+]0;2T\1406003180@tskel: /usr[01;32m2T\1406003180@tskel[00m:[01;34m/usr[00m$ 
+]0;2T\1406003180@tskel: /usr[01;32m2T\1406003180@tskel[00m:[01;34m/usr[00m$ 
+]0;2T\1406003180@tskel: /usr[01;32m2T\1406003180@tskel[00m:[01;34m/usr[00m$ 
+]0;2T\1406003180@tskel: /usr[01;32m2T\1406003180@tskel[00m:[01;34m/usr[00m$ cd /usr/share/doc
+]0;2T\1406003180@tskel: /usr/share/doc[01;32m2T\1406003180@tskel[00m:[01;34m/usr/share/doc[00m$ cd /usr/share/doc
+]0;2T\1406003180@tskel: /usr/share/doc[01;32m2T\1406003180@tskel[00m:[01;34m/usr/share/doc[00m$ cd /usr/share/doc
+]0;2T\1406003180@tskel: /usr/share/doc[01;32m2T\1406003180@tskel[00m:[01;34m/usr/share/doc[00m$ cd bash
+]0;2T\1406003180@tskel: /usr/share/doc/bash[01;32m2T\1406003180@tskel[00m:[01;34m/usr/share/doc/bash[00m$ pwd
+/usr/share/doc/bash
+]0;2T\1406003180@tskel: /usr/share/doc/bash[01;32m2T\1406003180@tskel[00m:[01;34m/usr/share/doc/bash[00m$ 
+]0;2T\1406003180@tskel: /usr/share/doc/bash[01;32m2T\1406003180@tskel[00m:[01;34m/usr/share/doc/bash[00m$ 
+]0;2T\1406003180@tskel: /usr/share/doc/bash[01;32m2T\1406003180@tskel[00m:[01;34m/usr/share/doc/bash[00m$ cd ..
+]0;2T\1406003180@tskel: /usr/share/doc[01;32m2T\1406003180@tskel[00m:[01;34m/usr/share/doc[00m$ pwd
+/usr/share/doc
+]0;2T\1406003180@tskel: /usr/share/doc[01;32m2T\1406003180@tskel[00m:[01;34m/usr/share/doc[00m$ cd ../dict
+]0;2T\1406003180@tskel: /usr/share/dict[01;32m2T\1406003180@tskel[00m:[01;34m/usr/share/dict[00m$ pwd
+/usr/share/dict
+]0;2T\1406003180@tskel: /usr/share/dict[01;32m2T\1406003180@tskel[00m:[01;34m/usr/share/dict[00m$ cd
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTe_Labs[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls -a
+[0m[01;34m.[0m   .bash_history  .bashrc  [01;34mDesktop[0m    [01;34mDownloads[0m  .lesshst  [01;34mPictures[0m  [01;34mPublic[0m   [01;34mTemplates[0m
+[01;34m..[0m  .bash_logout   [01;34m.cache[0m   [01;34mDocuments[0m  .k5login   [01;34mMusic[0m     .profile  [01;34mTe_Labs[0m  [01;34mVideos[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls -l /etc/hosts
+-rw-r--r-- 1 root root 193 Sep 19 10:42 /etc/hosts
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls  -l /etc/hots[K[Ksts
+-rw-r--r-- 1 root root 193 Sep 19 10:42 /etc/hosts
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls -R /etc/udev
+/etc/udev:
+[0m[01;34mhwdb.d[0m  [01;34mrules.d[0m  udev.conf
+
+/etc/udev/hwdb.d:
+
+/etc/udev/rules.d:
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls -R /etc/udev[Kls -d /etc/s*ls -d /etc/s*[K[K[K[K[K[K[K[K[K[K[K[K[K[K*
+[0m[01;34m/etc/sane.d[0m     [01;34m/etc/security[0m  /etc/shadow   /etc/sos.conf  /etc/subgid-  [01;34m/etc/sudoers.d[0m
+[01;34m/etc/sasl2[0m      [01;34m/etc/selinux[0m   /etc/shadow-  [01;34m/etc/ssh[0m       /etc/subuid   /etc/sysctl.conf
+/etc/screenrc   /etc/services  /etc/shells   [01;34m/etc/ssl[0m       /etc/subuid-  [01;34m/etc/sysctl.d[0m
+/etc/securetty  [01;34m/etc/sgml[0m      [01;34m/etc/skel[0m     /etc/subgid    /etc/sudoers  [01;34m/etc/systemd[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls /etc/s*
+/etc/screenrc   /etc/services  /etc/shadow-  /etc/sos.conf  /etc/subgid-  /etc/subuid-  /etc/sysctl.conf
+/etc/securetty  /etc/shadow    /etc/shells   /etc/subgid    /etc/subuid   /etc/sudoers
+
+/etc/sane.d:
+abaton.conf          coolscan3.conf      fujitsu.conf   leo.conf         pie.conf         st400.conf
+agfafocus.conf       coolscan.conf       genesys.conf   lexmark.conf     pixma.conf       stv680.conf
+apple.conf           dc210.conf          gphoto2.conf   ma1509.conf      plustek.conf     tamarack.conf
+artec.conf           dc240.conf          gt68xx.conf    magicolor.conf   plustek_pp.conf  teco1.conf
+artec_eplus48u.conf  dc25.conf           hp3900.conf    matsushita.conf  qcam.conf        teco2.conf
+avision.conf         dell1600n_net.conf  hp4200.conf    microtek2.conf   ricoh.conf       teco3.conf
+bh.conf              dll.conf            hp5400.conf    microtek.conf    rts8891.conf     test.conf
+canon630u.conf       [0m[01;34mdll.d[0m               hp.conf        mustek.conf      s9036.conf       u12.conf
+canon.conf           dmc.conf            hpsj5s.conf    mustek_pp.conf   sceptre.conf     umax1220u.conf
+canon_dr.conf        epjitsu.conf        hs2p.conf      mustek_usb.conf  sharp.conf       umax.conf
+canon_pp.conf        epson2.conf         ibm.conf       nec.conf         sm3840.conf      umax_pp.conf
+cardscan.conf        epson.conf          kodakaio.conf  net.conf         snapscan.conf    xerox_mfp.conf
+coolscan2.conf       epsonds.conf        kodak.conf     p5.conf          sp15c.conf
+
+/etc/sasl2:
+libvirt.conf
+
+/etc/security:
+access.conf  limits.conf  namespace.conf  [01;32mnamespace.init[0m  pam_env.conf   time.conf
+group.conf   [01;34mlimits.d[0m     [01;34mnamespace.d[0m     opasswd         sepermit.conf
+
+/etc/selinux:
+semanage.conf
+
+/etc/sgml:
+[01;36mcatalog[0m  xml-core.cat
+ls: cannot open directory '/etc/skel': Permission denied
+
+/etc/ssh:
+moduli                      sshd_config.lwidentity.orig  ssh_host_ecdsa_key.pub    ssh_host_rsa_key.pub
+ssh_config                  ssh_host_dsa_key             ssh_host_ed25519_key      ssh_import_id
+ssh_config.lwidentity.orig  ssh_host_dsa_key.pub         ssh_host_ed25519_key.pub
+sshd_config                 ssh_host_ecdsa_key           ssh_host_rsa_key
+
+/etc/ssl:
+[01;34mcerts[0m  openssl.cnf  [01;34mprivate[0m
+
+/etc/sudoers.d:
+README
+
+/etc/sysctl.d:
+10-console-messages.conf  10-kernel-hardening.conf   10-magic-sysrq.conf       10-ptrace.conf    [01;36m99-sysctl.conf[0m
+10-ipv6-privacy.conf      10-link-restrictions.conf  10-network-security.conf  10-zeropage.conf  README
+
+/etc/systemd:
+bootchart.conf  logind.conf  resolved.conf  system.conf     [01;34muser[0m
+journald.conf   [01;34mnetwork[0m      [01;34msystem[0m         timesyncd.conf  user.conf
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls -d /etc/s*
+[0m[01;34m/etc/sane.d[0m     [01;34m/etc/security[0m  /etc/shadow   /etc/sos.conf  /etc/subgid-  [01;34m/etc/sudoers.d[0m
+[01;34m/etc/sasl2[0m      [01;34m/etc/selinux[0m   /etc/shadow-  [01;34m/etc/ssh[0m       /etc/subuid   /etc/sysctl.conf
+/etc/screenrc   /etc/services  /etc/shells   [01;34m/etc/ssl[0m       /etc/subuid-  [01;34m/etc/sysctl.d[0m
+/etc/securetty  [01;34m/etc/sgml[0m      [01;34m/etc/skel[0m     /etc/subgid    /etc/sudoers  [01;34m/etc/systemd[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls -d /etc/????
+[0m[01;34m/etc/acpi[0m  [01;34m/etc/dkms[0m  [01;34m/etc/init[0m  [01;36m/etc/mtab[0m  [01;34m/etc/pbis[0m  [01;34m/etc/sgml[0m  [01;34m/etc/udev[0m
+[01;34m/etc/dhcp[0m  [01;34m/etc/dpkg[0m  [01;34m/etc/ldap[0m  [01;34m/etc/newt[0m  [01;34m/etc/perl[0m  [01;34m/etc/skel[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls -d /etc/????
+[0m[01;34m/etc/acpi[0m  [01;34m/etc/dkms[0m  [01;34m/etc/init[0m  [01;36m/etc/mtab[0m  [01;34m/etc/pbis[0m  [01;34m/etc/sgml[0m  [01;34m/etc/udev[0m
+[01;34m/etc/dhcp[0m  [01;34m/etc/dpkg[0m  [01;34m/etc/ldap[0m  [01;34m/etc/newt[0m  [01;34m/etc/perl[0m  [01;34m/etc/skel[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls -d /etc/????
+[0m[01;34m/etc/acpi[0m  [01;34m/etc/dkms[0m  [01;34m/etc/init[0m  [01;36m/etc/mtab[0m  [01;34m/etc/pbis[0m  [01;34m/etc/sgml[0m  [01;34m/etc/udev[0m
+[01;34m/etc/dhcp[0m  [01;34m/etc/dpkg[0m  [01;34m/etc/ldap[0m  [01;34m/etc/newt[0m  [01;34m/etc/perl[0m  [01;34m/etc/skel[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls -d /etc/????
+[0m[01;34m/etc/acpi[0m  [01;34m/etc/dkms[0m  [01;34m/etc/init[0m  [01;36m/etc/mtab[0m  [01;34m/etc/pbis[0m  [01;34m/etc/sgml[0m  [01;34m/etc/udev[0m
+[01;34m/etc/dhcp[0m  [01;34m/etc/dpkg[0m  [01;34m/etc/ldap[0m  [01;34m/etc/newt[0m  [01;34m/etc/perl[0m  [01;34m/etc/skel[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls –d /etc/[abcd]*
+ls: cannot access '–d': No such file or directory
+/etc/adduser.conf   /etc/bash.bashrc             /etc/cowpoke.conf  /etc/debian_version   /etc/drirc
+/etc/at.deny        /etc/bash_completion         /etc/crontab       /etc/deluser.conf
+[0m[01;32m/etc/banner[0m         /etc/bindresvport.blacklist  /etc/crypttab      /etc/devscripts.conf
+[01;32m/etc/banner_backup[0m  /etc/ca-certificates.conf    /etc/debconf.conf  /etc/dput.cf
+
+/etc/acpi:
+[01;34mevents[0m  [01;32mpowerbtn.sh[0m
+
+/etc/alternatives:
+[01;36mawk[0m            [01;36mfakeroot[0m                      [01;36mlzgrep.1.gz[0m   [01;36mrcp.1.gz[0m          [01;36mview.fr.1.gz[0m
+[01;36mawk.1.gz[0m       [01;36mfakeroot.1.gz[0m                 [01;36mlzless[0m        README            [01;36mview.it.1.gz[0m
+[01;36mbuiltins.7.gz[0m  [01;36mfakeroot.es.1.gz[0m              [01;36mlzless.1.gz[0m   [01;36mrename[0m            [01;36mview.ja.1.gz[0m
+[01;36mc++[0m            [01;36mfakeroot.fr.1.gz[0m              [01;36mlzma[0m          [01;36mrename.1.gz[0m       [01;36mview.pl.1.gz[0m
+[01;36mc++.1.gz[0m       [01;36mfakeroot.sv.1.gz[0m              [01;36mlzma.1.gz[0m     [01;36mrlogin[0m            [01;36mview.ru.1.gz[0m
+[01;36mc89[0m            [01;36mfrom[0m                          [01;36mlzmore[0m        [01;36mrlogin.1.gz[0m       [01;36mvi.fr.1.gz[0m
+[01;36mc89.1.gz[0m       [01;36mfrom.1.gz[0m                     [01;36mlzmore.1.gz[0m   [01;36mrmt[0m               [01;36mvi.it.1.gz[0m
+[01;36mc99[0m            [01;36mftp[0m                           [01;36mmt[0m            [01;36mrmt.8.gz[0m          [01;36mvi.ja.1.gz[0m
+[01;36mc99.1.gz[0m       [01;36mftp.1.gz[0m                      [01;36mmt.1.gz[0m       [01;36mrsh[0m               [01;36mvim[0m
+[01;36mcc[0m             [01;36minfobrowser[0m                   [01;36mmy.cnf[0m        [01;36mrsh.1.gz[0m          [01;36mvimdiff[0m
+[01;36mcc.1.gz[0m        [01;36minfobrowser.1.gz[0m              [01;36mnawk[0m          [01;36mrview[0m             [01;36mvi.pl.1.gz[0m
+[01;36mcpp[0m            [01;36mlibtxc-dxtn-x86_64-linux-gnu[0m  [01;36mnawk.1.gz[0m     [01;36mrvim[0m              [01;36mvi.ru.1.gz[0m
+[01;36meditor[0m         [01;36mlocate[0m                        [01;36mnc[0m            [01;36mspice-xpi-client[0m  [01;36mvtrgb[0m
+[01;36meditor.1.gz[0m    [01;36mlocate.1.gz[0m                   [01;36mnc.1.gz[0m       [01;36mtelnet[0m            [01;36mw[0m
+[01;36mex[0m             [01;36mlzcat[0m                         [01;36mnetcat[0m        [01;36mtelnet.1.gz[0m       [01;36mw.1.gz[0m
+[01;36mex.1.gz[0m        [01;36mlzcat.1.gz[0m                    [01;36mnetcat.1.gz[0m   [01;36mtext.plymouth[0m     [01;36mwrite[0m
+[01;36mex.fr.1.gz[0m     [01;36mlzcmp[0m                         [01;36mnetrc.5.gz[0m    [01;36mtraceroute6[0m       [01;36mwrite.1.gz[0m
+[01;36mex.it.1.gz[0m     [01;36mlzcmp.1.gz[0m                    [01;36mnewt-palette[0m  [01;36mtraceroute6.8.gz[0m  [01;36mx86_64-linux-gnu_egl_conf[0m
+[01;36mex.ja.1.gz[0m     [01;36mlzdiff[0m                        [01;36mpager[0m         [01;36munlzma[0m            [01;36mx86_64-linux-gnu_gl_conf[0m
+[01;36mex.pl.1.gz[0m     [01;36mlzdiff.1.gz[0m                   [01;36mpager.1.gz[0m    [01;36munlzma.1.gz[0m       [01;36mx86_64-linux-gnu_xorg_extra_modules[0m
+[01;36mex.ru.1.gz[0m     [01;36mlzegrep[0m                       [01;36mpftp[0m          [01;36mupdatedb[0m          [01;36mx-cursor-theme[0m
+[01;36mfaked.1.gz[0m     [01;36mlzegrep.1.gz[0m                  [01;36mpftp.1.gz[0m     [01;36mvi[0m
+[01;36mfaked.es.1.gz[0m  [01;36mlzfgrep[0m                       [01;36mpico[0m          [01;36mvi.1.gz[0m
+[01;36mfaked.fr.1.gz[0m  [01;36mlzfgrep.1.gz[0m                  [01;36mpico.1.gz[0m     [01;36mview[0m
+[01;36mfaked.sv.1.gz[0m  [01;36mlzgrep[0m                        [01;36mrcp[0m           [01;36mview.1.gz[0m
+
+/etc/apm:
+[01;34mevent.d[0m
+
+/etc/apparmor:
+[01;34minit[0m  parser.conf  subdomain.conf
+
+/etc/apparmor.d:
+[01;34mabstractions[0m    [01;34mlibvirt[0m         sbin.dhclient                 usr.lib.libvirt.virt-aa-helper  usr.sbin.tcpdump
+[01;34mcache[0m           [01;34mlocal[0m           [01;34mtunables[0m                      usr.lib.lxd.lxd-bridge-proxy
+[01;34mdisable[0m         [01;34mlxc[0m             usr.bin.lxc-start             usr.sbin.libvirtd
+[01;34mforce-complain[0m  lxc-containers  usr.bin.ubuntu-core-launcher  usr.sbin.rsyslogd
+
+/etc/apport:
+[01;34mblacklist.d[0m  crashdb.conf
+
+/etc/apt:
+[01;34mapt.conf.d[0m  [01;34mpreferences.d[0m  sources.list  sources.list~  [01;34msources.list.d[0m  trusted.gpg  [01;34mtrusted.gpg.d[0m
+
+/etc/at-spi2:
+accessibility.conf
+
+/etc/bash_completion.d:
+apport_completion  cryptdisks  dkms  dput  git-prompt  grub  insserv  yum.bash
+
+/etc/binfmt.d:
+
+/etc/byobu:
+backend  socketdir
+
+/etc/ca-certificates:
+[01;34mupdate.d[0m
+
+/etc/calendar:
+default
+
+/etc/console-setup:
+[01;31mcached.kmap.gz[0m                compose.ISO-8859-10.inc  compose.ISO-8859-4.inc  compose.VISCII.inc
+compose.ARMSCII-8.inc         compose.ISO-8859-11.inc  compose.ISO-8859-5.inc  ISO-8859-1.acm
+compose.CP1251.inc            compose.ISO-8859-13.inc  compose.ISO-8859-6.inc  [01;31mLat15-VGA16.psf.gz[0m
+compose.CP1255.inc            compose.ISO-8859-14.inc  compose.ISO-8859-7.inc  remap.inc
+compose.CP1256.inc            compose.ISO-8859-15.inc  compose.ISO-8859-8.inc  [01;31mUni2-Fixed16.psf.gz[0m
+compose.GEORGIAN-ACADEMY.inc  compose.ISO-8859-16.inc  compose.ISO-8859-9.inc  vtrgb
+compose.GEORGIAN-PS.inc       compose.ISO-8859-1.inc   compose.KOI8-R.inc      vtrgb.vga
+compose.IBM1133.inc           compose.ISO-8859-2.inc   compose.KOI8-U.inc
+compose.ISIRI-3342.inc        compose.ISO-8859-3.inc   compose.TIS-620.inc
+
+/etc/cron.d:
+mdadm  popularity-contest
+
+/etc/cron.daily:
+[01;32mapport[0m      [01;32mbsdmainutils[0m  [01;32mlibvirt-bin[0m  [01;32mman-db[0m  [01;32mmlocate[0m  [01;32mpopularity-contest[0m
+[01;32mapt-compat[0m  [01;32mdpkg[0m          [01;32mlogrotate[0m    [01;32mmdadm[0m   [01;32mpasswd[0m   [01;32mupdate-notifier-common[0m
+
+/etc/cron.hourly:
+
+/etc/cron.monthly:
+
+/etc/cron.weekly:
+[01;32mfstrim[0m  [01;32mman-db[0m  [01;32mupdate-notifier-common[0m
+
+/etc/dbus-1:
+[01;34msession.d[0m  [01;34msystem.d[0m
+
+/etc/default:
+acpid         console-setup  dbus      [01;34mgrub.d[0m      libvirt-bin     mdadm       qemu-kvm  ssh        virtlogd
+apport        crda           devpts    halt        libvirt-guests  networking  rcS       ufw        virtualbox
+bridge-utils  cron           ebtables  irqbalance  locale          nss         rsync     useradd
+bsdmainutils  cryptdisks     grub      keyboard    lxd-bridge      open-iscsi  rsyslog   virtlockd
+
+/etc/depmod.d:
+ubuntu.conf
+
+/etc/dhcp:
+debug  dhclient.conf  [01;34mdhclient-enter-hooks.d[0m  [01;34mdhclient-exit-hooks.d[0m
+
+/etc/dkms:
+framework.conf  [01;34mtemplate-dkms-mkdeb[0m  [01;36mtemplate-dkms-mkdsc[0m
+
+/etc/dnsmasq.d:
+[01;36mlibvirt-bin[0m
+
+/etc/dnsmasq.d-available:
+libvirt-bin
+
+/etc/dpkg:
+dpkg.cfg  [01;34mdpkg.cfg.d[0m  [01;34morigins[0m  shlibs.default  shlibs.override
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls d-[K[K-d /etc([abcd][1P[abcd]/[abcd][C[C[C[C[C[C?[K*
+[0m[01;34m/etc/acpi[0m          [01;32m/etc/banner_backup[0m           /etc/cowpoke.conf    [01;34m/etc/default[0m
+/etc/adduser.conf  /etc/bash.bashrc             [01;34m/etc/cron.d[0m          /etc/deluser.conf
+[01;34m/etc/alternatives[0m  /etc/bash_completion         [01;34m/etc/cron.daily[0m      [01;34m/etc/depmod.d[0m
+[01;34m/etc/apm[0m           [01;34m/etc/bash_completion.d[0m       [01;34m/etc/cron.hourly[0m     /etc/devscripts.conf
+[01;34m/etc/apparmor[0m      /etc/bindresvport.blacklist  [01;34m/etc/cron.monthly[0m    [01;34m/etc/dhcp[0m
+[01;34m/etc/apparmor.d[0m    [01;34m/etc/binfmt.d[0m                /etc/crontab         [01;34m/etc/dkms[0m
+[01;34m/etc/apport[0m        [01;34m/etc/byobu[0m                   [01;34m/etc/cron.weekly[0m     [01;34m/etc/dnsmasq.d[0m
+[01;34m/etc/apt[0m           [01;34m/etc/ca-certificates[0m         /etc/crypttab        [01;34m/etc/dnsmasq.d-available[0m
+/etc/at.deny       /etc/ca-certificates.conf    [01;34m/etc/dbus-1[0m          [01;34m/etc/dpkg[0m
+[01;34m/etc/at-spi2[0m       [01;34m/etc/calendar[0m                /etc/debconf.conf    /etc/dput.cf
+[01;32m/etc/banner[0m        [01;34m/etc/console-setup[0m           /etc/debian_version  /etc/drirc
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTe_Labs[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cp /etc/hosts hosts
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  hosts  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTe_Labs[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ rm hosts
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTe_Labs[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cp -v /etc/hosts hosts
+'/etc/hosts' -> 'hosts'
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cp [K -v /etc/hosts hosts
+'/etc/hosts' -> 'hosts'
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  hosts  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTe_Labs[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ rm hosts
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTe_Labs[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cp -v /etc/hosts .
+'/etc/hosts' -> './hosts'
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  hosts  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTe_Labs[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ rm hosts
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTe_Labs[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls öl [K[K[K-l hosts
+ls: cannot access 'hosts': No such file or directory
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cd /etc
+]0;2T\1406003180@tskel: /etc[01;32m2T\1406003180@tskel[00m:[01;34m/etc[00m$ ls -l hosts
+-rw-r--r-- 1 root root 193 Sep 19 10:42 hosts
+]0;2T\1406003180@tskel: /etc[01;32m2T\1406003180@tskel[00m:[01;34m/etc[00m$ cp -p hosts /home/sysadmin
+cp: cannot create regular file '/home/sysadmin': Permission denied
+]0;2T\1406003180@tskel: /etc[01;32m2T\1406003180@tskel[00m:[01;34m/etc[00m$ cp -p hosts /home/1406003180
+cp: cannot create regular file '/home/1406003180': Permission denied
+]0;2T\1406003180@tskel: /etc[01;32m2T\1406003180@tskel[00m:[01;34m/etc[00m$ cd
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ 
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cd
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls -l hosts
+ls: cannot access 'hosts': No such file or directory
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ rm hosts
+rm: cannot remove 'hosts': No such file or directory
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTe_Labs[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cd /etc
+]0;2T\1406003180@tskel: /etc[01;32m2T\1406003180@tskel[00m:[01;34m/etc[00m$ ls -l hosts
+-rw-r--r-- 1 root root 193 Sep 19 10:42 hosts
+]0;2T\1406003180@tskel: /etc[01;32m2T\1406003180@tskel[00m:[01;34m/etc[00m$ cp -p hosts /hoe[Kme/sysadmin
+cp: cannot create regular file '/home/sysadmin': Permission denied
+]0;2T\1406003180@tskel: /etc[01;32m2T\1406003180@tskel[00m:[01;34m/etc[00m$ cd
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ m[Krm hosts
+rm: cannot remove 'hosts': No such file or directory
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTe_Labs[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cp -p /etc/hosts ~
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cp hosts newname
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls -l hosts newmane[K[K[K[Kname
+-rw-r--r-- 1 2T\1406003180 2T\domain^users 193 Sep 19 10:42 hosts
+-rw------- 1 2T\1406003180 2T\domain^users 193 Oct  7 14:40 newname
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ rm hosts newname
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTe_Labs[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ mkdir Myetc
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ cp _r[KR[K[K-R /etc/udev Myetc
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls -l Myetc
+total 4
+drwx------ 4 2T\1406003180 2T\domain^users 4096 Oct  7 14:42 [0m[01;34mudev[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls -1R Myte[K[Ketc
+Myetc:
+[0m[01;34mudev[0m
+
+Myetc/udev:
+[01;34mhwdb.d[0m
+[01;34mrules.d[0m
+udev.conf
+
+Myetc/udev/hwdb.d:
+
+Myetc/udev/rules.d:
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mMyetc[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTe_Labs[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ rm -r  Myetc
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTe_Labs[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ touch premove
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  premove  [01;34mPublic[0m  [01;34mTe_Labs[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ mcpremove[K[K[K[K[K[K[K[K[Kmc [K[K[Kmv premove postmove
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  postmove  [01;34mPublic[0m  [01;34mTe_Labs[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ rm postmove
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTe_Labs[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Fri 07 Oct 2016 02:44:17 PM GMT

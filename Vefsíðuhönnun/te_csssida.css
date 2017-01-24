@@ -1,0 +1,57 @@
+
+
+h1{
+		text-align:center;
+		font-size:3em;
+}
+
+
+
+p{
+	color:brown;
+}
+
+
+
+
+
+
+
+
+.rautt{
+	color:red;
+	text-align:center;
+	font-family:"Brush Script MT";
+}
+
+.blatt{
+	color:blue;
+}
+
+.bleikt{
+	color:magenta;
+}
+
+.edgy{
+	color:#80542E;
+	font-family:"Brush Script MT";
+}
+
+.silfur{
+	text-align:center;
+	color:silver;
+}
+
+.gulur{
+	text-align:center;
+	color:yellow;
+}
+
+.grænn{
+	color:green;
+}
+
+.para{
+	font-size:2em;
+	text-align:center;
+}

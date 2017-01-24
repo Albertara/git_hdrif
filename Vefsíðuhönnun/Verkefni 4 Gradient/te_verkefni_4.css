@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Amita|Anton|Bonbon|Bungee+Inline|Calligraffitti|Chewy|Dancing+Script|Eater|Fjalla+One|Geostar|Geostar+Fill|Gloria+Hallelujah|Julius+Sans+One|Kdam+Thmor|Lato|Lobster|Miss+Fajardose|Montserrat|Nothing+You+Could+Do|Open+Sans|Orbitron|Oswald|Pacifico|Rubik+Mono+One|Russo+One|Shadows+Into+Light|Tangerine|Trirong|Wendy+One');
+
+
+h1{
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+
+html{
+	background:#003846;
+}
+
+
+.headlitur1{
+	background:#003846;
+	border:solid 1px #003846;
+}
+
+.litur2{
+	background:linear-gradient(#145b9b,#8bb9d6);
+	border:magenta 1px solid;
+}
+
+
+.litur3{
+	color:#003846;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Trirong', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Wendy One', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Amita', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Russo One', sans-serif;
+font-family: 'Chewy', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Kdam Thmor', cursive;
+font-family: 'Calligraffitti', cursive;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Bonbon', cursive;
+font-family: 'Miss Fajardose', cursive;
+font-family: 'Geostar', cursive;
+font-family: 'Eater', cursive;
+font-family: 'Geostar Fill', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+*/
+
+
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}

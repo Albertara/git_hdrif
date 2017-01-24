@@ -1,0 +1,8 @@
+Script started on Tue 08 Nov 2016 04:14:46 PM GMT
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ echo,[K Já ég veit :D
+Já ég veit :D
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ echo allt í lagi SE
+allt í lagi SE
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ exit
+
+Script done on Tue 08 Nov 2016 04:15:13 PM GMT

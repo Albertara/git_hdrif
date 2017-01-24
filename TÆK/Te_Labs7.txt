@@ -1,0 +1,120 @@
+Script started on Fri 14 Oct 2016 02:27:17 PM GMT
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ echo F[Kfimmy[Kta skiptið :(
+bash: syntax error near unexpected token `('
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ echo fimmta skiptið :(\(
+fimmta skiptið :(
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ echo fimmta skiptið :\([1P([11Pls -l wordscp /usr/share/dict/words .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Ptar -tvf udev.tarrvf udev.tar /etc/hosts[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pls etc/udev/rules.d[K[K[Ktar -xvf udev.tar.gz[8Pcd mybackups[4@ls -lh[C[C[C[C[C[C[C[C[C[Ctar -zcvf mybackups/udev.tar.gz /etc/udev[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Ptvf mybackups/udev.tar[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pls mybackupstar -cvf mybackups/udev.tar /etc/udev[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls mybackups[K
+[0m[01;34metc[0m  [01;31mudev.tar[0m  [01;31mudev.tar.gz[0m  words
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls mybackupsecho fimmta skiptið :\([1P([11Pls -l wordscp /usr/share/dict/words .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Ptar -tvf udev.tarrvf udev.tar /etc/hosts[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pls etc/udev/rules.d[K[K[Ktar -xvf udev.tar.gz[8Pcd mybackupstar -xvf udev.tar.gzls[K etc/udev/rules.dtar -rvf udev.tar /etc/hosts[11Ptvf udev.tarcp /usr/share/dict/words .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pls -l wordsecho fimmta skiptið :(\([11Pls mybackups[Khistory -20
+bash: history: -2: invalid option
+history: usage: history [-c] [-d offset] [n] or history -anrw [filename] or history -ps arg [arg...]
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ history -20ls mybackupsecho fimmta skiptið :\([1P([11Pls -l wordscp /usr/share/dict/words .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Ptar -tvf udev.tarrvf udev.tar /etc/hosts[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pls etc/udev/rules.d[K[K[Ktar -xvf udev.tar.gz[8Pcd mybackups[4@ls -lh[C[C[C[C[C[C[C[C[C[Ctar -zcvf mybackups/udev.tar.gz /etc/udev[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Ptvf mybackups/udev.tar[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pls mybackupstar -tvf mybackups/udev.tar
+drwxr-xr-x root/root         0 2016-09-30 03:13 etc/udev/
+drwxr-xr-x root/root         0 2016-04-12 10:34 etc/udev/rules.d/
+drwxr-xr-x root/root         0 2016-04-12 10:34 etc/udev/hwdb.d/
+-rw-r--r-- root/root       153 2016-04-12 10:34 etc/udev/udev.conf
+-rw-r--r-- root/root       193 2016-09-19 10:42 etc/hosts
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ tar -tvf mybackups/udev.tar[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Phistory -20ls mybackupsecho fimmta skiptið :\([1P([11Pls -l wordscp /usr/share/dict/words .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Ptar -tvf udev.tarrvf udev.tar /etc/hosts[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pls etc/udev/rules.d[K[K[Ktar -xvf udev.tar.gz[8Pcd mybackups[4@ls -lh[C[C[C[C[C[C[C[C[C[Ctar -zcvf mybackups/udev.tar.gz /etc/udev[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Ptvf mybackups/udev.tarzcvf mybackups/udev.tar.gz /etc/udev
+tar: Removing leading `/' from member names
+/etc/udev/
+/etc/udev/rules.d/
+/etc/udev/hwdb.d/
+/etc/udev/udev.conf
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ tar -zcvf mybackups/udev.tar.gz /etc/udev[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Ptvf mybackups/udev.tar[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Phistory -20ls mybackupsecho fimmta skiptið :\([1P([11Pls -l wordscp /usr/share/dict/words .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Ptar -tvf udev.tarrvf udev.tar /etc/hosts[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pls etc/udev/rules.d[K[K[Ktar -xvf udev.tar.gz[8Pcd mybackups[4@ls -lh[C[C[C[C[C[C[C[C[C[Ctar -zcvf mybackups/udev.tar.gz /etc/udev[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pls -lh mybackups
+total 940K
+drwx------ 3 2T\1406003180 2T\domain^users 4.0K Oct 14 14:06 [0m[01;34metc[0m
+-rw------- 1 2T\1406003180 2T\domain^users  10K Oct 14 14:06 [01;31mudev.tar[0m
+-rw------- 1 2T\1406003180 2T\domain^users  301 Oct 14 14:31 [01;31mudev.tar.gz[0m
+-rw------- 1 2T\1406003180 2T\domain^users 917K Oct 14 14:07 words
+]0;2T\1406003180@tskel: ~[01;32m2T\1406003180@tskel[00m:[01;34m~[00m$ ls -lh mybackupstar -zcvf mybackups/udev.tar.gz /etc/udev[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Ptvf mybackups/udev.tar[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Phistory -20ls mybackupsecho fimmta skiptið :\([1P([11Pls -l wordscp /usr/share/dict/words .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Ptar -tvf udev.tarrvf udev.tar /etc/hosts[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pls etc/udev/rules.d[K[K[Ktar -xvf udev.tar.gz[8Pcd mybackups[4@ls -lh[C[C[C[C[C[C[C[C[C[C[4Pcd[C[C[C[C[C[C[C[C[C[C
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ cd mybackups[4@ls -lh[C[C[C[C[C[C[C[C[C[Ctar -zcvf mybackups/udev.tar.gz /etc/udev[14Ptvf mybackups/udev.tar[16Phistory -20ls mybackupsecho fimmta skiptið :\([1P([11Pls -l wordscp /usr/share/dict/words .[9Ptar -tvf udev.tarrvf udev.tar /etc/hosts[9Pls etc/udev/rules.d[K[K[Ktar -xvf udev.tar.gz[8Pcd mybackups[4@ls -lh[C[C[C[C[C[C[C[C[C[C[4Pcd[C[C[C[C[C[C[C[C[C[Ctar -xvf udev.tar.gz
+etc/udev/
+etc/udev/rules.d/
+etc/udev/hwdb.d/
+etc/udev/udev.conf
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ tar -xvf udev.tar.gz[8Pcd mybackups[4@ls -lh[C[C[C[C[C[C[C[C[C[Ctar -zcvf mybackups/udev.tar.gz /etc/udev[14Ptvf mybackups/udev.tar[16Phistory -20ls mybackupsecho fimmta skiptið :\([1P([11Pls -l wordscp /usr/share/dict/words .[9Ptar -tvf udev.tarrvf udev.tar /etc/hosts[9Pls etc/udev/rules.d[K[K[K
+[0m[01;34metc[0m  [01;31mudev.tar[0m  [01;31mudev.tar.gz[0m  words
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ lstar -xvf udev.tar.gz[8Pcd mybackups[4@ls -lh[C[C[C[C[C[C[C[C[C[Ctar -zcvf mybackups/udev.tar.gz /etc/udev[14Ptvf mybackups/udev.tar[16Phistory -20ls mybackupsecho fimmta skiptið :\([1P([11Pls -l wordscp /usr/share/dict/words .[9Ptar -tvf udev.tarrvf udev.tar /etc/hosts[9Pls etc/udev/rules.d[K[K
+[0m[01;34mudev[0m
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ ls etc[Ktar -xvf udev.tar.gz[8Pcd mybackups[4@ls -lh[C[C[C[C[C[C[C[C[C[Ctar -zcvf mybackups/udev.tar.gz /etc/udev[14Ptvf mybackups/udev.tar[16Phistory -20ls mybackupsecho fimmta skiptið :\([1P([11Pls -l wordscp /usr/share/dict/words .[9Ptar -tvf udev.tarrvf udev.tar /etc/hosts[9Pls etc/udev/rules.d[K[K/udev
+[0m[01;34mhwdb.d[0m  [01;34mrules.d[0m  udev.conf
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ ls etc/udev[K[Ktar -xvf udev.tar.gz[8Pcd mybackups[4@ls -lh[C[C[C[C[C[C[C[C[C[Ctar -zcvf mybackups/udev.tar.gz /etc/udev[14Ptvf mybackups/udev.tar[16Phistory -20ls mybackupsecho fimmta skiptið :\([1P([11Pls -l wordscp /usr/share/dict/words .[9Ptar -tvf udev.tarrvf udev.tar /etc/hosts[9Pls etc/udev/rules.d
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ tar -rvf udev.tar /etc/udev
+tar: Removing leading `/' from member names
+/etc/udev/
+/etc/udev/rules.d/
+/etc/udev/hwdb.d/
+/etc/udev/udev.conf
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ tar -tvf udev.tar
+drwxr-xr-x root/root         0 2016-09-30 03:13 etc/udev/
+drwxr-xr-x root/root         0 2016-04-12 10:34 etc/udev/rules.d/
+drwxr-xr-x root/root         0 2016-04-12 10:34 etc/udev/hwdb.d/
+-rw-r--r-- root/root       153 2016-04-12 10:34 etc/udev/udev.conf
+-rw-r--r-- root/root       193 2016-09-19 10:42 etc/hosts
+drwxr-xr-x root/root         0 2016-09-30 03:13 etc/udev/
+drwxr-xr-x root/root         0 2016-04-12 10:34 etc/udev/rules.d/
+drwxr-xr-x root/root         0 2016-04-12 10:34 etc/udev/hwdb.d/
+-rw-r--r-- root/root       153 2016-04-12 10:34 etc/udev/udev.conf
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ cp /usr/share/dict/words .
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ ls -l words
+-rw------- 1 2T\1406003180 2T\domain^users 938848 Oct 14 14:36 words
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ gzip words
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ ls -l words.gz
+-rw------- 1 2T\1406003180 2T\domain^users 255996 Oct 14 14:36 [0m[01;31mwords.gz[0m
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ ls -l words.gz
+-rw------- 1 2T\1406003180 2T\domain^users 255996 Oct 14 14:36 [0m[01;31mwords.gz[0m
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ gunzip words.gz
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ ls -l words
+-rw------- 1 2T\1406003180 2T\domain^users 938848 Oct 14 14:36 words
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ ls öl[K[K-l words
+-rw------- 1 2T\1406003180 2T\domain^users 938848 Oct 14 14:36 words
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ bzið[Kp2 words
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ ls öl [K[K[K-l words.bz2
+-rw------- 1 2T\1406003180 2T\domain^users 335405 Oct 14 14:36 [0m[01;31mwords.bz2[0m
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ ls -l words.bz2
+-rw------- 1 2T\1406003180 2T\domain^users 335405 Oct 14 14:36 [0m[01;31mwords.bz2[0m
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ bunzip words.bz2
+No command 'bunzip' found, did you mean:
+ Command 'gunzip' from package 'gzip' (main)
+ Command 'runzip' from package 'rzip' (universe)
+ Command 'unzip' from package 'unzip' (main)
+ Command 'funzip' from package 'unzip' (main)
+ Command 'ebunzip' from package 'eb-utils' (universe)
+ Command 'bunzip2' from package 'bzip2' (main)
+ Command 'lunzip' from package 'lunzip' (universe)
+bunzip: command not found
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ bunzip2 words.bz2
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ ls öl [K[K[K-l words
+-rw------- 1 2T\1406003180 2T\domain^users 938848 Oct 14 14:36 words
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ zip words.zip words
+  adding: words (deflated 73%)
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ ls -l words.zip
+-rw------- 1 2T\1406003180 2T\domain^users 256132 Oct 14 14:39 [0m[01;31mwords.zip[0m
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ zip -r udev.zip /t[Ketc/udev
+  adding: etc/udev/ (stored 0%)
+  adding: etc/udev/rules.d/ (stored 0%)
+  adding: etc/udev/hwdb.d/ (stored 0%)
+  adding: etc/udev/udev.conf (deflated 24%)
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ ls -l udev.zip
+-rw------- 1 2T\1406003180 2T\domain^users 771 Oct 14 14:39 [0m[01;31mudev.zip[0m
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ unzip -l udev.zip
+Archive:  udev.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  2016-09-30 03:13   etc/udev/
+        0  2016-04-12 10:34   etc/udev/rules.d/
+        0  2016-04-12 10:34   etc/udev/hwdb.d/
+      153  2016-04-12 10:34   etc/udev/udev.conf
+---------                     -------
+      153                     4 files
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ rm -r etc
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ unzip udev.zip
+Archive:  udev.zip
+   creating: etc/udev/
+   creating: etc/udev/rules.d/
+   creating: etc/udev/hwdb.d/
+  inflating: etc/udev/udev.conf      
+]0;2T\1406003180@tskel: ~/mybackups[01;32m2T\1406003180@tskel[00m:[01;34m~/mybackups[00m$ exit
+exit
+
+Script done on Fri 14 Oct 2016 02:40:48 PM GMT
