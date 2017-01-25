@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Montserrat|Montserrat+Subrayada');
+
+
+h1{
+	font-family: 'Cabin Sketch', cursive;
+	text-align: center;
+	padding-top: 200px;
+}
+
+
+h2{
+	font-family: 'Cabin Sketch', cursive;
+	text-align: center;
+}
+
+
+body{
+	background-image: url("fjall.jpg")
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Montserrat', sans-serif;
